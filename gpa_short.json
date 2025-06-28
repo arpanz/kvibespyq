@@ -1,0 +1,522 @@
+{
+  "CSE": {
+  "Semester I": {
+    "Scheme I": {
+      "courses": [
+        {"title": "Physics", "credits": 3},
+        {"title": "DE & LA", "credits": 4},
+        {"title": "Science Elective", "credits": 2},
+        {"title": "Engg. Elective II", "credits": 2},
+        {"title": "SLS", "credits": 2},
+        {"title": "Env. Science", "credits": 2},
+        {"title": "Physics Lab", "credits": 1},
+        {"title": "Prog. Lab", "credits": 4},
+        {"title": "Engg. Drawing", "credits": 1}
+      ],
+      "total_credits": 21
+    },
+    "Scheme II": {
+      "courses": [
+        {"title": "Chemistry", "credits": 3},
+        {"title": "DE & LA", "credits": 4},
+        {"title": "English", "credits": 2},
+        {"title": "Basic Electronics", "credits": 2},
+        {"title": "Engg. Elective I", "credits": 2},
+        {"title": "HASS I", "credits": 2},
+        {"title": "Chemistry Lab", "credits": 1},
+        {"title": "Engg. Lab", "credits": 1},
+        {"title": "Yoga", "credits": 1},
+        {"title": "Workshop", "credits": 2},
+        {"title": "Comm. Lab", "credits": 1}
+      ],
+      "total_credits": 20
+    }
+  },
+  "Semester II": {
+    "Scheme I": {
+      "courses": [
+        {"title": "Chemistry", "credits": 3},
+        {"title": "TC & NA", "credits": 4},
+        {"title": "English", "credits": 2},
+        {"title": "Basic Electronics", "credits": 2},
+        {"title": "Engg. Elective I", "credits": 2},
+        {"title": "HASS I", "credits": 2},
+        {"title": "Chemistry Lab", "credits": 1},
+        {"title": "Engg. Lab", "credits": 1},
+        {"title": "Workshop", "credits": 2},
+        {"title": "Yoga", "credits": 1},
+        {"title": "Comm. Lab", "credits": 1}
+      ],
+      "total_credits": 20
+    },
+    "Scheme II": {
+      "courses": [
+        {"title": "Physics", "credits": 3},
+        {"title": "DE & LA", "credits": 4},
+        {"title": "Science Elective", "credits": 2},
+        {"title": "Engg. Elective II", "credits": 2},
+        {"title": "SLS", "credits": 2},
+        {"title": "Env. Science", "credits": 2},
+        {"title": "Physics Lab", "credits": 1},
+        {"title": "Prog. Lab", "credits": 4},
+        {"title": "Engg. Drawing", "credits": 2}
+      ],
+      "total_credits": 21
+    }
+  },
+  "Semester III": {
+    "Default": {
+      "courses": [
+        {"title": "STW / HASS II", "credits": 2},
+        {"title": "PS", "credits": 4},
+        {"title": "IND", "credits": 2},
+        {"title": "DS", "credits": 3},
+        {"title": "DSD", "credits": 3},
+        {"title": "ATFL", "credits": 4},
+        {"title": "DS Lab", "credits": 1},
+        {"title": "DSD Lab", "credits": 1}
+      ],
+      "total_credits": 21
+    }
+  },
+  "Semester IV": {
+    "Default": {
+      "courses": [
+        {"title": "STW / HASS II", "credits": 3},
+        {"title": "DS (Discrete)", "credits": 4},
+        {"title": "OS", "credits": 3},
+        {"title": "OOP-Java", "credits": 3},
+        {"title": "DBMS", "credits": 3},
+        {"title": "COA", "credits": 4},
+        {"title": "OS Lab", "credits": 1},
+        {"title": "Java Lab", "credits": 1},
+        {"title": "DBMS Lab", "credits": 1},
+        {"title": "Voc. Elective", "credits": 1}
+      ],
+      "total_credits": 24
+    }
+  },
+  "Semester V": {
+    "Default": {
+      "courses": [
+        {"title": "EEC", "credits": 3},
+        {"title": "DAA", "credits": 3},
+        {"title": "SE", "credits": 3},
+        {"title": "CN", "credits": 3},
+        {"title": "PE-I", "credits": 3},
+        {"title": "PE-II", "credits": 3},
+        {"title": "DAA Lab", "credits": 1},
+        {"title": "CN Lab", "credits": 1},
+        {"title": "K-Explore I", "credits": 1}
+      ],
+      "total_credits": 22
+    }
+  },
+  "Semester VI": {
+    "Default": {
+      "courses": [
+        {"title": "HASS III", "credits": 3},
+        {"title": "ML", "credits": 3},
+        {"title": "AI", "credits": 3},
+        {"title": "PE-III", "credits": 3},
+        {"title": "OE-II / MI-1", "credits": 3},
+        {"title": "UHV", "credits": 3},
+        {"title": "AI Lab", "credits": 1},
+        {"title": "App Dev Lab", "credits": 1},
+        {"title": "Mini Proj", "credits": 4}
+      ],
+      "total_credits": 24
+    }
+  }
+  },
+"IT": {
+    "Semester I": {
+      "Scheme I": {
+        "courses": [
+          {"title": "Physics", "credits": 3},
+          {"title": "DE & LA", "credits": 4},
+          {"title": "Science Elective", "credits": 2},
+          {"title": "Engg. Elective II", "credits": 2},
+          {"title": "SLS", "credits": 2},
+          {"title": "Env. Science", "credits": 2},
+          {"title": "Physics Lab", "credits": 1},
+          {"title": "Prog. Lab", "credits": 4},
+          {"title": "Engg. Drawing", "credits": 1}
+        ],
+        "total_credits": 21
+      },
+      "Scheme II": {
+        "courses": [
+          {"title": "Chemistry", "credits": 3},
+          {"title": "DE & LA", "credits": 4},
+          {"title": "English", "credits": 2},
+          {"title": "Basic Electronics", "credits": 2},
+          {"title": "Engg. Elective I", "credits": 2},
+          {"title": "HASS I", "credits": 2},
+          {"title": "Chemistry Lab", "credits": 1},
+          {"title": "Engg. Lab", "credits": 1},
+          {"title": "Yoga", "credits": 1},
+          {"title": "Workshop", "credits": 2},
+          {"title": "Comm. Lab", "credits": 1}
+        ],
+        "total_credits": 20
+      }
+    },
+    "Semester II": {
+      "Scheme I": {
+        "courses": [
+          {"title": "Chemistry", "credits": 3},
+          {"title": "TC & NA", "credits": 4},
+          {"title": "English", "credits": 2},
+          {"title": "Basic Electronics", "credits": 2},
+          {"title": "Engg. Elective I", "credits": 2},
+          {"title": "HASS I", "credits": 2},
+          {"title": "Chemistry Lab", "credits": 1},
+          {"title": "Engg. Lab", "credits": 1},
+          {"title": "Workshop", "credits": 2},
+          {"title": "Yoga", "credits": 1},
+          {"title": "Comm. Lab", "credits": 1}
+        ],
+        "total_credits": 20
+      },
+      "Scheme II": {
+        "courses": [
+          {"title": "Physics", "credits": 3},
+          {"title": "TC & NA", "credits": 4},
+          {"title": "Science Elective", "credits": 2},
+          {"title": "Engg. Elective II", "credits": 2},
+          {"title": "SLS", "credits": 2},
+          {"title": "Env. Science", "credits": 2},
+          {"title": "Physics Lab", "credits": 1},
+          {"title": "Prog. Lab", "credits": 4},
+          {"title": "Engg. Drawing", "credits": 1}
+        ],
+        "total_credits": 21
+      }
+    },
+    "Semester III": {
+      "Default": {
+        "courses": [
+          {"title": "STW", "credits": 2},
+          {"title": "PS", "credits": 4},
+          {"title": "DS", "credits": 4},
+          {"title": "CE", "credits": 3},
+          {"title": "OOP-Java", "credits": 3},
+          {"title": "COA", "credits": 4},
+          {"title": "Data Structures Laboratory", "credits": 1},
+          {"title": "Communication Engineering Laboratory", "credits": 1},
+          {"title": "Java Programming Laboratory", "credits": 1}
+        ],
+        "total_credits": 23
+      }
+    },
+    "Semester IV": {
+      "Default": {
+        "courses": [
+          {"title": "EE", "credits": 3},
+          {"title": "DS (Discrete)", "credits": 4},
+          {"title": "IND 4.0", "credits": 2},
+          {"title": "OS", "credits": 3},
+          {"title": "DBMS", "credits": 3},
+          {"title": "ITC", "credits": 3},
+          {"title": "Operating Systems Laboratory", "credits": 1},
+          {"title": "DBMS Laboratory", "credits": 1},
+          {"title": "Vocational Electives", "credits": 1}
+        ],
+        "total_credits": 21
+      }
+    },
+    "Semester V": {
+      "Default": {
+        "courses": [
+          {"title": "HASS II", "credits": 3},
+          {"title": "DAA", "credits": 3},
+          {"title": "SE", "credits": 4},
+          {"title": "CN", "credits": 3},
+          {"title": "PE-I", "credits": 3},
+          {"title": "PE-II", "credits": 3},
+          {"title": "Algorithms Laboratory", "credits": 1},
+          {"title": "Computer Networks Laboratory", "credits": 1},
+          {"title": "K-Explore Open Elective-I", "credits": 1}
+        ],
+        "total_credits": 22
+      }
+    },
+    "Semester VI": {
+      "Default": {
+        "courses": [
+          {"title": "HASS III", "credits": 3},
+          {"title": "ML", "credits": 4},
+          {"title": "DSA", "credits": 3},
+          {"title": "PE-III", "credits": 3},
+          {"title": "OE-II / MI-I", "credits": 3},
+          {"title": "UHV", "credits": 3},
+          {"title": "Data Analytics Laboratory", "credits": 1},
+          {"title": "Advance Programming Laboratory", "credits": 2},
+          {"title": "Mini Project", "credits": 2}
+        ],
+        "total_credits": 24
+      }
+    }
+  },
+  "CSCE": {
+    "Semester I": {
+      "Scheme I": {
+        "courses": [
+          {"title": "Physics", "credits": 3},
+          {"title": "DE & LA", "credits": 4},
+          {"title": "Science Elective", "credits": 2},
+          {"title": "Engg. Elective II", "credits": 2},
+          {"title": "SLS", "credits": 2},
+          {"title": "Env. Science", "credits": 2},
+          {"title": "Physics Lab", "credits": 1},
+          {"title": "Prog. Lab", "credits": 4},
+          {"title": "Engg. Drawing", "credits": 1}
+        ],
+        "total_credits": 21
+      },
+      "Scheme II": {
+        "courses": [
+          {"title": "Chemistry", "credits": 3},
+          {"title": "DE & LA", "credits": 4},
+          {"title": "English", "credits": 2},
+          {"title": "Basic Electronics", "credits": 2},
+          {"title": "Engg. Elective I", "credits": 2},
+          {"title": "HASS I", "credits": 2},
+          {"title": "Chemistry Lab", "credits": 1},
+          {"title": "Engg. Lab", "credits": 1},
+          {"title": "Yoga", "credits": 1},
+          {"title": "Workshop", "credits": 2},
+          {"title": "Comm. Lab", "credits": 1}
+        ],
+        "total_credits": 20
+      }
+    },
+    "Semester II": {
+      "Scheme I": {
+        "courses": [
+          {"title": "Chemistry", "credits": 3},
+          {"title": "TC & NA", "credits": 4},
+          {"title": "English", "credits": 2},
+          {"title": "Basic Electronics", "credits": 2},
+          {"title": "Engg. Elective I", "credits": 2},
+          {"title": "HASS I", "credits": 2},
+          {"title": "Chemistry Lab", "credits": 1},
+          {"title": "Engg. Lab", "credits": 1},
+          {"title": "Workshop", "credits": 2},
+          {"title": "Yoga", "credits": 1},
+          {"title": "Comm. Lab", "credits": 1}
+        ],
+        "total_credits": 20
+      },
+      "Scheme II": {
+        "courses": [
+          {"title": "Physics", "credits": 3},
+          {"title": "TC & NA", "credits": 4},
+          {"title": "Science Elective", "credits": 2},
+          {"title": "Engg. Elective II", "credits": 2},
+          {"title": "SLS", "credits": 2},
+          {"title": "Env. Science", "credits": 2},
+          {"title": "Physics Lab", "credits": 1},
+          {"title": "Prog. Lab", "credits": 4},
+          {"title": "Engg. Drawing", "credits": 1}
+        ],
+        "total_credits": 21
+      }
+    },
+    "Semester III": {
+      "Default": {
+        "courses": [
+          {"title": "STW", "credits": 2},
+          {"title": "PS", "credits": 4},
+          {"title": "IND 4.0", "credits": 2},
+          {"title": "DS", "credits": 4},
+          {"title": "DSD", "credits": 3},
+          {"title": "CE", "credits": 3},
+          {"title": "Data Structures Laboratory", "credits": 1},
+          {"title": "Digital Systems Design Laboratory", "credits": 1},
+          {"title": "Communication Engineering Laboratory", "credits": 1}
+        ],
+        "total_credits": 21
+      }
+    },
+    "Semester IV": {
+      "Default": {
+        "courses": [
+          {"title": "EE", "credits": 3},
+          {"title": "DS (Discrete)", "credits": 4},
+          {"title": "OS", "credits": 3},
+          {"title": "DBMS", "credits": 3},
+          {"title": "OOP-Java", "credits": 3},
+          {"title": "IS", "credits": 3},
+          {"title": "Operating Systems Laboratory", "credits": 1},
+          {"title": "DBMS Laboratory", "credits": 1},
+          {"title": "Java Programming Laboratory", "credits": 1},
+          {"title": "Vocational Electives", "credits": 1}
+        ],
+        "total_credits": 23
+      }
+    },
+    "Semester V": {
+      "Default": {
+        "courses": [
+          {"title": "HASS II", "credits": 3},
+          {"title": "DAA", "credits": 3},
+          {"title": "SE", "credits": 4},
+          {"title": "CN", "credits": 3},
+          {"title": "PE-I", "credits": 3},
+          {"title": "PE-II", "credits": 3},
+          {"title": "Algorithms Laboratory", "credits": 1},
+          {"title": "Computer Networks Laboratory", "credits": 1},
+          {"title": "K-Explore Open Elective-I", "credits": 1}
+        ],
+        "total_credits": 22
+      }
+    },
+    "Semester VI": {
+      "Default": {
+        "courses": [
+          {"title": "HASS III", "credits": 3},
+          {"title": "Cloud Computing", "credits": 3},
+          {"title": "Wireless Mobile Communication", "credits": 3},
+          {"title": "PE-III", "credits": 3},
+          {"title": "OE-II / MI-1", "credits": 3},
+          {"title": "UHV", "credits": 3},
+          {"title": "Wireless Communication Lab", "credits": 1},
+          {"title": "Advance Programming Laboratory", "credits": 2},
+          {"title": "Mini Project", "credits": 2}
+        ],
+        "total_credits": 23
+      }
+    }
+  },
+  "CSSE": {
+    "Semester I": {
+      "Scheme I": {
+        "courses": [
+          {"title": "Physics", "credits": 3},
+          {"title": "DE & LA", "credits": 4},
+          {"title": "Science Elective", "credits": 2},
+          {"title": "Engg. Elective II", "credits": 2},
+          {"title": "SLS", "credits": 2},
+          {"title": "Env. Science", "credits": 2},
+          {"title": "Physics Lab", "credits": 1},
+          {"title": "Prog. Lab", "credits": 4},
+          {"title": "Engg. Drawing", "credits": 1}
+        ],
+        "total_credits": 21
+      },
+      "Scheme II": {
+        "courses": [
+          {"title": "Chemistry", "credits": 3},
+          {"title": "DE & LA", "credits": 4},
+          {"title": "English", "credits": 2},
+          {"title": "Basic Electronics", "credits": 2},
+          {"title": "Engg. Elective I", "credits": 2},
+          {"title": "HASS I", "credits": 2},
+          {"title": "Chemistry Lab", "credits": 1},
+          {"title": "Engg. Lab", "credits": 1},
+          {"title": "Yoga", "credits": 1},
+          {"title": "Workshop", "credits": 2},
+          {"title": "Comm. Lab", "credits": 1}
+        ],
+        "total_credits": 20
+      }
+    },
+    "Semester II": {
+      "Scheme I": {
+        "courses": [
+          {"title": "Chemistry", "credits": 3},
+          {"title": "TC & NA", "credits": 4},
+          {"title": "English", "credits": 2},
+          {"title": "Basic Electronics", "credits": 2},
+          {"title": "Engg. Elective I", "credits": 2},
+          {"title": "HASS I", "credits": 2},
+          {"title": "Chemistry Lab", "credits": 1},
+          {"title": "Engg. Lab", "credits": 1},
+          {"title": "Workshop", "credits": 2},
+          {"title": "Yoga", "credits": 1},
+          {"title": "Comm. Lab", "credits": 1}
+        ],
+        "total_credits": 20
+      },
+      "Scheme II": {
+        "courses": [
+          {"title": "Physics", "credits": 3},
+          {"title": "TC & NA", "credits": 4},
+          {"title": "Science Elective", "credits": 2},
+          {"title": "Engg. Elective II", "credits": 2},
+          {"title": "SLS", "credits": 2},
+          {"title": "Env. Science", "credits": 2},
+          {"title": "Physics Lab", "credits": 1},
+          {"title": "Prog. Lab", "credits": 4},
+          {"title": "Engg. Drawing", "credits": 1}
+        ],
+        "total_credits": 21
+      }
+    },
+    "Semester III": {
+      "Default": {
+        "courses": [
+          {"title": "STW", "credits": 2},
+          {"title": "PS", "credits": 4},
+          {"title": "DS", "credits": 4},
+          {"title": "DSD", "credits": 3},
+          {"title": "OOP-Java", "credits": 3},
+          {"title": "COA", "credits": 4},
+          {"title": "Data Structures Laboratory", "credits": 1},
+          {"title": "Digital Systems Design Laboratory", "credits": 1},
+          {"title": "Java Programming Laboratory", "credits": 1}
+        ],
+        "total_credits": 23
+      }
+    },
+    "Semester IV": {
+      "Default": {
+        "courses": [
+          {"title": "EE", "credits": 3},
+          {"title": "DS (Discrete)", "credits": 4},
+          {"title": "IND 4.0", "credits": 2},
+          {"title": "OS", "credits": 3},
+          {"title": "DBMS", "credits": 3},
+          {"title": "PSS", "credits": 4},
+          {"title": "Operating Systems Laboratory", "credits": 1},
+          {"title": "DBMS Laboratory", "credits": 1},
+          {"title": "Vocational Electives", "credits": 1}
+        ],
+        "total_credits": 22
+      }
+    },
+    "Semester V": {
+      "Default": {
+        "courses": [
+          {"title": "HASS II", "credits": 3},
+          {"title": "DAA", "credits": 3},
+          {"title": "SE", "credits": 4},
+          {"title": "CN", "credits": 3},
+          {"title": "PE-I", "credits": 3},
+          {"title": "PE-II", "credits": 3},
+          {"title": "Algorithms Laboratory", "credits": 1},
+          {"title": "Computer Networks Laboratory", "credits": 1},
+          {"title": "K-Explore Open Elective-I", "credits": 1}
+        ],
+        "total_credits": 19
+      }
+    },
+    "Semester VI": {
+      "Default": {
+        "courses": [
+          {"title": "HASS III", "credits": 3},
+          {"title": "Compilers", "credits": 3},
+          {"title": "ARM & Adv Microprocessors", "credits": 3},
+          {"title": "PE-III", "credits": 3},
+          {"title": "OE-II / MI-1", "credits": 3},
+          {"title": "UHV", "credits": 3},
+          {"title": "Advance Programming Laboratory", "credits": 2},
+          {"title": "Mini Project", "credits": 2}
+        ],
+        "total_credits": 22
+      }
+    }
+  }
+}

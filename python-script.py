@@ -1,48 +1,67 @@
-import os
-import json
+# python-script.py
+import os, json, pathlib
 
-BASE_DIR = './public'
-BASE_URL = 'https://kvibespyq.pages.dev'
-result = []
+BASE_DIR = pathlib.Path("public")
+BASE_URL = "https://kvibespyq.pages.dev"
 
-for root, dirs, files in os.walk(BASE_DIR):
-    for file in files:
-        if file.endswith('.pdf'):
-            full_path = os.path.join(root, file)
-            rel_path = full_path.replace(BASE_DIR + "/", "")
-            parts = rel_path.split('/')
-            
-            if len(parts) >= 4:
-                department = parts[0]
-                semester = parts[1] 
-                subject = parts[2]
-                year = parts[3]
-                
-                if len(parts) == 6:  # dept/sem/subject/year/exam_type/filename
-                    exam_type = parts[4]
-                    filename = parts[5]
-                else:  # dept/sem/subject/year/filename
-                    filename = parts[4]
-                    if 'mid' in filename.lower():
-                        exam_type = 'mid'
-                    elif 'end' in filename.lower():
-                        exam_type = 'end'
-                    else:
-                        exam_type = 'general'
-                
-                result.append({
-                    "department": department.upper(),
-                    "semester": semester,
-                    "subject": subject.replace('-', ' ').title(),
-                    "year": year,
-                    "exam_type": exam_type,
-                    "filename": filename,
-                    "url": f"{BASE_URL}/{rel_path}"
-                })
 
-result.sort(key=lambda x: (x['department'], x['semester'], x['subject'], x['year']), reverse=True)
+def generate_pyq_index() -> None:
+    result = []
+    for pdf in (BASE_DIR / "pyq").rglob("*.pdf"):
+        parts = pdf.relative_to(BASE_DIR).parts           # tuple
+        # pyq / dept / sem / subject / year / mid|end / file
+        if len(parts) != 7 or parts[0] != "pyq":
+            print("SKIP malformed path:", "/".join(parts))
+            continue
 
-with open('public/index.json', 'w') as f:  # Write to public folder
-    json.dump(result, f, indent=2)
+        _, dept, sem, subj, year, exam, filename = parts
+        result.append(
+            {
+                "content_type": "pyq",
+                "department": dept.upper(),
+                "semester": sem,
+                "subject": subj.replace("-", " ").title(),
+                "year": year,
+                "exam_type": exam,
+                "filename": filename,
+                "url": f"{BASE_URL}/{'/'.join(parts)}",
+            }
+        )
 
-print(f"Generated index.json with {len(result)} PYQ files")
+    result.sort(key=lambda x: (x["department"], x["semester"],
+                               x["subject"], x["year"]), reverse=True)
+
+    (BASE_DIR / "pyq-index.json").write_text(json.dumps(result, indent=2))
+    print(f"Generated pyq-index.json with {len(result)} files")
+
+
+def generate_notes_index() -> None:
+    result = []
+    for pdf in (BASE_DIR / "notes").rglob("*.pdf"):
+        parts = pdf.relative_to(BASE_DIR).parts           # notes / dept / sem / subject / file
+        if len(parts) != 5 or parts[0] != "notes":
+            print("SKIP malformed path:", "/".join(parts))
+            continue
+
+        _, dept, sem, subj, filename = parts
+        result.append(
+            {
+                "content_type": "notes",
+                "department": dept.upper(),
+                "semester": sem,
+                "subject": subj.replace("-", " ").title(),
+                "filename": filename,
+                "url": f"{BASE_URL}/{'/'.join(parts)}",
+            }
+        )
+
+    result.sort(key=lambda x: (x["department"], x["semester"],
+                               x["subject"], x["filename"]))
+
+    (BASE_DIR / "notes-index.json").write_text(json.dumps(result, indent=2))
+    print(f"Generated notes-index.json with {len(result)} files")
+
+
+if __name__ == "__main__":
+    generate_pyq_index()
+    generate_notes_index()
