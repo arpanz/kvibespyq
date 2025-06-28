@@ -1,54 +1,32 @@
-import os
-import json
+import os, json, pathlib
 
-BASE_DIR = 'public'
+BASE_DIR = pathlib.Path("public")          # <-- start here, not “.”
+BASE_URL = "https://kvibespyq.pages.dev"
+
 result = []
 
-print(f"Current working directory: {os.getcwd()}")
-print(f"Looking for files in: {os.path.abspath(BASE_DIR)}")
-print(f"Directory exists: {os.path.exists(BASE_DIR)}")
-print(f"Directory contents: {os.listdir('.') if os.path.exists('.') else 'Not found'}")
+for pdf in BASE_DIR.rglob("*.pdf"):
+    parts = pdf.relative_to(BASE_DIR).parts   # dept/sem/subject/year/mid-end/file
+    if len(parts) != 6:                       # exactly 6 pieces expected
+        print("SKIP", pdf)                    # helps you debug later
+        continue
 
-if os.path.exists(BASE_DIR):
-    print(f"Contents of {BASE_DIR}: {os.listdir(BASE_DIR)}")
+    dept, sem, subj, year, exam, filename = parts
 
-for root, dirs, files in os.walk(BASE_DIR):
-    print(f"\nChecking directory: {root}")
-    print(f"Subdirectories found: {dirs}")
-    print(f"Files found: {files}")
-    
-    for file in files:
-        print(f"Processing file: {file}")
-        if file.endswith('.pdf'):
-            print(f"✅ Found PDF: {file}")
-            full_path = os.path.join(root, file)
-            # Fix Windows path separator issues
-            rel_path = full_path.replace(BASE_DIR + os.sep, "").replace(os.sep, "/")
-            parts = rel_path.split('/')
-            
-            print(f"Relative path: {rel_path}")
-            print(f"Path parts: {parts}")
-            
-            if len(parts) >= 3:
-                branch = parts[0]
-                subject = parts[1]
-                filename = parts[2]
-                
-                file_entry = {
-                    "branch": branch,
-                    "subject": subject,
-                    "filename": filename,
-                    "url": f"https://kvibespyq.netlify.app/{rel_path}"
-                }
-                result.append(file_entry)
-                print(f"Added to result: {file_entry}")
-            else:
-                print(f"⚠️ Skipping file with unexpected path structure: {rel_path}")
+    result.append({
+        "department": dept.upper(),
+        "semester"  : sem,
+        "subject"   : subj,
+        "year"      : year,
+        "exam_type" : exam,
+        "filename"  : filename,
+        "url"       : f"{BASE_URL}/{'/'.join(parts)}"
+    })
 
-print(f"\nTotal PDFs found: {len(result)}")
-print(f"Final result: {result}")
+result.sort(key=lambda x: (x['department'], x['semester'],
+                           x['subject'], x['year']), reverse=True)
 
-with open('public/index.json', 'w') as f:
+with open("index.json", "w") as f:
     json.dump(result, f, indent=2)
 
-print("index.json file created successfully!")
+print(f"Generated index.json with {len(result)} PYQ files")
