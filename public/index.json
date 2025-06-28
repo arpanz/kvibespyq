@@ -1,0 +1,29 @@
+[
+  {
+    "department": "CSE",
+    "semester": "sem4",
+    "subject": "oopj",
+    "year": "2023",
+    "exam_type": "end",
+    "filename": "2023_end.pdf",
+    "url": "https://kvibespyq.pages.dev/cse/sem4/oopj/2023/end/2023_end.pdf"
+  },
+  {
+    "department": "CSE",
+    "semester": "sem3",
+    "subject": "dsd",
+    "year": "2023",
+    "exam_type": "mid",
+    "filename": "sem3-pyq-2022.pdf",
+    "url": "https://kvibespyq.pages.dev/cse/sem3/dsd/2023/mid/sem3-pyq-2022.pdf"
+  },
+  {
+    "department": "CSE",
+    "semester": "sem3",
+    "subject": "dsa",
+    "year": "2022",
+    "exam_type": "end",
+    "filename": "sem3-pyq-2022.pdf",
+    "url": "https://kvibespyq.pages.dev/cse/sem3/dsa/2022/end/sem3-pyq-2022.pdf"
+  }
+]
