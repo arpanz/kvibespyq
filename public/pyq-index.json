@@ -128,5 +128,65 @@
     "exam_type": "mid",
     "filename": "2014 Mid Sem.pdf",
     "url": "https://kvibespyq.pages.dev/pyq/cse/sem3/dsa/mid/2014 Mid Sem.pdf"
+  },
+  {
+    "content_type": "pyq",
+    "department": "CSE",
+    "semester": "sem3",
+    "subject": "Atfl",
+    "year": "2023",
+    "exam_type": "mid",
+    "filename": "AFL 2023 Solution.pdf",
+    "url": "https://kvibespyq.pages.dev/pyq/cse/sem3/atfl/mid/AFL 2023 Solution.pdf"
+  },
+  {
+    "content_type": "pyq",
+    "department": "CSE",
+    "semester": "sem3",
+    "subject": "Atfl",
+    "year": "2023",
+    "exam_type": "mid",
+    "filename": "AFL_MIDSEM_2023.pdf",
+    "url": "https://kvibespyq.pages.dev/pyq/cse/sem3/atfl/mid/AFL_MIDSEM_2023.pdf"
+  },
+  {
+    "content_type": "pyq",
+    "department": "CSE",
+    "semester": "sem3",
+    "subject": "Atfl",
+    "year": "2020",
+    "exam_type": "mid",
+    "filename": "AFL_2020_QS.pdf",
+    "url": "https://kvibespyq.pages.dev/pyq/cse/sem3/atfl/mid/AFL_2020_QS.pdf"
+  },
+  {
+    "content_type": "pyq",
+    "department": "CSE",
+    "semester": "sem3",
+    "subject": "Atfl",
+    "year": "2020",
+    "exam_type": "mid",
+    "filename": "AFL_Spring Make Up Mid-Semester- 2020.pdf",
+    "url": "https://kvibespyq.pages.dev/pyq/cse/sem3/atfl/mid/AFL_Spring Make Up Mid-Semester- 2020.pdf"
+  },
+  {
+    "content_type": "pyq",
+    "department": "CSE",
+    "semester": "sem3",
+    "subject": "Atfl",
+    "year": "2019",
+    "exam_type": "mid",
+    "filename": "AFL_2019_MIDSEM.pdf",
+    "url": "https://kvibespyq.pages.dev/pyq/cse/sem3/atfl/mid/AFL_2019_MIDSEM.pdf"
+  },
+  {
+    "content_type": "pyq",
+    "department": "CSE",
+    "semester": "sem3",
+    "subject": "Atfl",
+    "year": "2017",
+    "exam_type": "mid",
+    "filename": "AFL_2017_MIDSEM.pdf",
+    "url": "https://kvibespyq.pages.dev/pyq/cse/sem3/atfl/mid/AFL_2017_MIDSEM.pdf"
   }
 ]

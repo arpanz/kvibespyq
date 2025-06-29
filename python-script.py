@@ -1,98 +1,108 @@
 # python-script.py
 #
-# Generates two JSON indices that are consumed by the Flutter app:
+# Generates two JSON indices consumed by the Flutter app:
 #   • public/pyq-index.json   – previous-year question papers
 #   • public/notes-index.json – lecture / lab notes
 #
-# The PYQ generator now understands **both** directory layouts:
-#   1) pyq/<dept>/<sem>/<sub>/<year>/<exam>/<file>.pdf   ← old
-#   2) pyq/<dept>/<sem>/<sub>/<exam>/<file>.pdf          ← new (year in filename)
+# PYQ paths now supported
+#   1) pyq/<dept>/<sem>/<sub>/<year>/<exam>/<file>.pdf   ← legacy
+#   2) pyq/<dept>/<sem>/<sub>/<exam>/<file>.pdf          ← year read from filename
 #
-# Nothing else in the app has to change – the JSON structure is identical to
-# what the Flutter code expects[1].  The notes logic is untouched[2].
+# The filename may contain the year anywhere, e.g.
+#   AFL_MIDSEM_2023.pdf ,  AFL 2023 Solution.pdf
+#
+# No changes are required on the Flutter side.
 
-import json, pathlib, re
+import json
+import pathlib
+import re
 
 BASE_DIR = pathlib.Path("public")
 BASE_URL = "https://kvibespyq.pages.dev"
 
-YEAR_RE = re.compile(r"(\d{4})")          # first 4-digit number ⇒ year
+# First 4-digit block in the filename that looks like a calendar year 1900-2099
+YEAR_RE = re.compile(r"(19|20)\d{2}")
+
+EXAM_TYPES = {"mid", "end"}  # folder names accepted for exam type
 
 
+# --------------------------------------------------------------------------- #
+#  PYQ INDEX                                                                  #
+# --------------------------------------------------------------------------- #
 def generate_pyq_index() -> None:
-    result = []
+    entries = []
 
-    for pdf in (BASE_DIR / "pyq").rglob("*.pdf"):
-        parts = pdf.relative_to(BASE_DIR).parts      # tuple of path segments
+    for pdf_path in (BASE_DIR / "pyq").rglob("*.pdf"):
+        parts = pdf_path.relative_to(BASE_DIR).parts
         if parts[0] != "pyq":
             continue
 
-        # ------------------------------------------------------------------
-        # pattern 1 – legacy: pyq/dep/sem/subj/year/exam/file.pdf  (7 parts)
-        # ------------------------------------------------------------------
+        # ------------------------------------------------------------------ #
+        #  pattern 1: pyq/dep/sem/subj/year/exam/file.pdf   (7 segments)      #
+        # ------------------------------------------------------------------ #
         if len(parts) == 7:
             _, dept, sem, subj, year, exam, filename = parts
 
-        # ------------------------------------------------------------------
-        # pattern 2 – new: pyq/dep/sem/subj/exam/file.pdf  (6 parts)
-        #          year is read from the filename (e.g. 2023_algo.pdf)
-        # ------------------------------------------------------------------
+        # ------------------------------------------------------------------ #
+        #  pattern 2: pyq/dep/sem/subj/exam/file.pdf       (6 segments)       #
+        #            ↳ year extracted from filename                           #
+        # ------------------------------------------------------------------ #
         elif len(parts) == 6:
             _, dept, sem, subj, exam, filename = parts
             m = YEAR_RE.search(filename)
             if not m:
-                print("SKIP  no 4-digit year in filename:", pdf)
+                print(f"SKIP  no year in filename: {pdf_path}")
                 continue
-            year = m.group(1)
+            year = m.group(0)
 
-        # anything else is ignored
         else:
-            print("SKIP malformed path:", "/".join(parts))
+            print(f"SKIP  malformed path: {pdf_path}")
             continue
 
-        # accept only “mid” or “end” folders for exam type
-        if exam.lower() not in ("mid", "end"):
-            print("SKIP unknown exam type:", pdf)
+        # Accept only 'mid' or 'end' folders for exam type
+        exam_lc = exam.lower()
+        if exam_lc not in EXAM_TYPES:
+            print(f"SKIP  unknown exam type folder: {pdf_path}")
             continue
 
-        result.append(
+        entries.append(
             {
                 "content_type": "pyq",
                 "department": dept.upper(),
                 "semester": sem,
                 "subject": subj.replace("-", " ").title(),
                 "year": year,
-                "exam_type": exam,
+                "exam_type": exam_lc,
                 "filename": filename,
                 "url": f"{BASE_URL}/{'/'.join(parts)}",
             }
         )
 
-    # newest first inside each grouping (same order the Flutter page expects[1])
-    result.sort(
-        key=lambda x: (
-            x["department"],
-            x["semester"],
-            x["subject"],
-            x["year"],
-        ),
+    # Sort newest first per department/semester/subject
+    entries.sort(
+        key=lambda x: (x["department"], x["semester"], x["subject"], x["year"]),
         reverse=True,
     )
 
-    (BASE_DIR / "pyq-index.json").write_text(json.dumps(result, indent=2))
-    print(f"Generated pyq-index.json with {len(result)} entries")
+    (BASE_DIR / "pyq-index.json").write_text(json.dumps(entries, indent=2))
+    print(f"Generated pyq-index.json with {len(entries)} entries")
 
 
-def generate_notes_index() -> None:  # unchanged[2]
-    result = []
-    for pdf in (BASE_DIR / "notes").rglob("*.pdf"):
-        parts = pdf.relative_to(BASE_DIR).parts  # notes / dept / sem / sub / file
+# --------------------------------------------------------------------------- #
+#  NOTES INDEX (unchanged)                                                    #
+# --------------------------------------------------------------------------- #
+def generate_notes_index() -> None:
+    entries = []
+
+    for pdf_path in (BASE_DIR / "notes").rglob("*.pdf"):
+        parts = pdf_path.relative_to(BASE_DIR).parts  # notes/dep/sem/subj/file
         if len(parts) != 5 or parts[0] != "notes":
-            print("SKIP malformed path:", "/".join(parts))
+            print(f"SKIP  malformed notes path: {pdf_path}")
             continue
 
         _, dept, sem, subj, filename = parts
-        result.append(
+
+        entries.append(
             {
                 "content_type": "notes",
                 "department": dept.upper(),
@@ -103,19 +113,13 @@ def generate_notes_index() -> None:  # unchanged[2]
             }
         )
 
-    result.sort(
-        key=lambda x: (
-            x["department"],
-            x["semester"],
-            x["subject"],
-            x["filename"],
-        )
-    )
+    entries.sort(key=lambda x: (x["department"], x["semester"], x["subject"], x["filename"]))
 
-    (BASE_DIR / "notes-index.json").write_text(json.dumps(result, indent=2))
-    print(f"Generated notes-index.json with {len(result)} entries")
+    (BASE_DIR / "notes-index.json").write_text(json.dumps(entries, indent=2))
+    print(f"Generated notes-index.json with {len(entries)} entries")
 
 
+# --------------------------------------------------------------------------- #
 if __name__ == "__main__":
     generate_pyq_index()
     generate_notes_index()
