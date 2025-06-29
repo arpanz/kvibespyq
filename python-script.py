@@ -1,24 +1,4 @@
-# python-script.py
-#
-# Builds the two JSON indices used by the Flutter app
-#   • public/pyq-index.json   – previous-year question papers
-#   • public/notes-index.json – lecture / lab notes
-#
-# PYQ paths supported
-#   1) pyq/<dept>/<sem>/<sub>/<year>/<exam>/<file>.pdf   ← legacy
-#   2) pyq/<dept>/<sem>/<sub>/<exam>/<file>.pdf          ← year read from filename
-#
-# A “year” is accepted ANYWHERE in the filename as long as
-#   • it is a 4-digit calendar year 1900-2099, and
-#   • it is not glued to another digit on either side
-#       (negative look-behind / look-ahead do that).
-#
-# This recognises
-#      AFL_MIDSEM_2023.pdf
-#      AFL 2023 Solution.pdf
-#      2023_AFL_MIDSEM.pdf
-#      AFL2023MIDSEM.pdf
-# but will ignore things like “…_20.pdf” or “…_0000.pdf”.
+
 
 import json
 import pathlib

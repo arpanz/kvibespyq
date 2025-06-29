@@ -2,6 +2,22 @@
   {
     "content_type": "notes",
     "department": "CSE",
+    "semester": "sem3",
+    "subject": "Ind",
+    "filename": "IND Q Bank 2.pdf",
+    "url": "https://kvibespyq.pages.dev/notes/CSE/sem3/ind/IND Q Bank 2.pdf"
+  },
+  {
+    "content_type": "notes",
+    "department": "CSE",
+    "semester": "sem3",
+    "subject": "Ind",
+    "filename": "IND Q Bank.pdf",
+    "url": "https://kvibespyq.pages.dev/notes/CSE/sem3/ind/IND Q Bank.pdf"
+  },
+  {
+    "content_type": "notes",
+    "department": "CSE",
     "semester": "sem5",
     "subject": "Daa",
     "filename": "DBMS_2019_Sol.pdf",
