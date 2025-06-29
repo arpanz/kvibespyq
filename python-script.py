@@ -1,17 +1,24 @@
 # python-script.py
 #
-# Generates two JSON indices consumed by the Flutter app:
+# Builds the two JSON indices used by the Flutter app
 #   • public/pyq-index.json   – previous-year question papers
 #   • public/notes-index.json – lecture / lab notes
 #
-# PYQ paths now supported
+# PYQ paths supported
 #   1) pyq/<dept>/<sem>/<sub>/<year>/<exam>/<file>.pdf   ← legacy
 #   2) pyq/<dept>/<sem>/<sub>/<exam>/<file>.pdf          ← year read from filename
 #
-# The filename may contain the year anywhere, e.g.
-#   AFL_MIDSEM_2023.pdf ,  AFL 2023 Solution.pdf
+# A “year” is accepted ANYWHERE in the filename as long as
+#   • it is a 4-digit calendar year 1900-2099, and
+#   • it is not glued to another digit on either side
+#       (negative look-behind / look-ahead do that).
 #
-# No changes are required on the Flutter side.
+# This recognises
+#      AFL_MIDSEM_2023.pdf
+#      AFL 2023 Solution.pdf
+#      2023_AFL_MIDSEM.pdf
+#      AFL2023MIDSEM.pdf
+# but will ignore things like “…_20.pdf” or “…_0000.pdf”.
 
 import json
 import pathlib
@@ -20,15 +27,15 @@ import re
 BASE_DIR = pathlib.Path("public")
 BASE_URL = "https://kvibespyq.pages.dev"
 
-# First 4-digit block in the filename that looks like a calendar year 1900-2099
-YEAR_RE = re.compile(r"(19|20)\d{2}")
+# year not touching another digit on either side
+YEAR_RE = re.compile(r"(?<!\d)(?:19|20)\d{2}(?!\d)", re.ASCII)
 
-EXAM_TYPES = {"mid", "end"}  # folder names accepted for exam type
+EXAM_TYPES = {"mid", "end"}                 # allowed exam-type folders
 
 
-# --------------------------------------------------------------------------- #
-#  PYQ INDEX                                                                  #
-# --------------------------------------------------------------------------- #
+# ──────────────────────────────────────────────────────────────────────────────
+# PYQ INDEX
+# ──────────────────────────────────────────────────────────────────────────────
 def generate_pyq_index() -> None:
     entries = []
 
@@ -37,21 +44,16 @@ def generate_pyq_index() -> None:
         if parts[0] != "pyq":
             continue
 
-        # ------------------------------------------------------------------ #
-        #  pattern 1: pyq/dep/sem/subj/year/exam/file.pdf   (7 segments)      #
-        # ------------------------------------------------------------------ #
+        # pattern 1: pyq/dep/sem/subj/year/exam/file.pdf
         if len(parts) == 7:
             _, dept, sem, subj, year, exam, filename = parts
 
-        # ------------------------------------------------------------------ #
-        #  pattern 2: pyq/dep/sem/subj/exam/file.pdf       (6 segments)       #
-        #            ↳ year extracted from filename                           #
-        # ------------------------------------------------------------------ #
+        # pattern 2: pyq/dep/sem/subj/exam/file.pdf  → year from filename
         elif len(parts) == 6:
             _, dept, sem, subj, exam, filename = parts
             m = YEAR_RE.search(filename)
             if not m:
-                print(f"SKIP  no year in filename: {pdf_path}")
+                print(f"SKIP  no year in filename: {pdf_path.name}")
                 continue
             year = m.group(0)
 
@@ -59,10 +61,9 @@ def generate_pyq_index() -> None:
             print(f"SKIP  malformed path: {pdf_path}")
             continue
 
-        # Accept only 'mid' or 'end' folders for exam type
         exam_lc = exam.lower()
         if exam_lc not in EXAM_TYPES:
-            print(f"SKIP  unknown exam type folder: {pdf_path}")
+            print(f"SKIP  unknown exam-type folder: {pdf_path}")
             continue
 
         entries.append(
@@ -78,7 +79,7 @@ def generate_pyq_index() -> None:
             }
         )
 
-    # Sort newest first per department/semester/subject
+    # newest first inside each grouping
     entries.sort(
         key=lambda x: (x["department"], x["semester"], x["subject"], x["year"]),
         reverse=True,
@@ -88,20 +89,19 @@ def generate_pyq_index() -> None:
     print(f"Generated pyq-index.json with {len(entries)} entries")
 
 
-# --------------------------------------------------------------------------- #
-#  NOTES INDEX (unchanged)                                                    #
-# --------------------------------------------------------------------------- #
+# ──────────────────────────────────────────────────────────────────────────────
+# NOTES INDEX   (unchanged)
+# ──────────────────────────────────────────────────────────────────────────────
 def generate_notes_index() -> None:
     entries = []
 
     for pdf_path in (BASE_DIR / "notes").rglob("*.pdf"):
-        parts = pdf_path.relative_to(BASE_DIR).parts  # notes/dep/sem/subj/file
+        parts = pdf_path.relative_to(BASE_DIR).parts    # notes/dep/sem/sub/file
         if len(parts) != 5 or parts[0] != "notes":
             print(f"SKIP  malformed notes path: {pdf_path}")
             continue
 
         _, dept, sem, subj, filename = parts
-
         entries.append(
             {
                 "content_type": "notes",
@@ -119,7 +119,7 @@ def generate_notes_index() -> None:
     print(f"Generated notes-index.json with {len(entries)} entries")
 
 
-# --------------------------------------------------------------------------- #
+# ──────────────────────────────────────────────────────────────────────────────
 if __name__ == "__main__":
     generate_pyq_index()
     generate_notes_index()
