@@ -12,6 +12,26 @@
   {
     "content_type": "pyq",
     "department": "CSE",
+    "semester": "sem4",
+    "subject": "Iec",
+    "year": "2025",
+    "exam_type": "mid",
+    "filename": "iec_2025_mid.pdf",
+    "url": "https://kvibespyq.pages.dev/pyq/cse/sem4/iec/2025/mid/iec_2025_mid.pdf"
+  },
+  {
+    "content_type": "pyq",
+    "department": "CSE",
+    "semester": "sem4",
+    "subject": "Dbms",
+    "year": "2025",
+    "exam_type": "mid",
+    "filename": "dbms_mid_2025.pdf",
+    "url": "https://kvibespyq.pages.dev/pyq/cse/sem4/dbms/2025/mid/dbms_mid_2025.pdf"
+  },
+  {
+    "content_type": "pyq",
+    "department": "CSE",
     "semester": "sem3",
     "subject": "Dsd",
     "year": "2023",
@@ -25,8 +45,88 @@
     "semester": "sem3",
     "subject": "Dsa",
     "year": "2022",
-    "exam_type": "end",
-    "filename": "sem3-pyq-2022.pdf",
-    "url": "https://kvibespyq.pages.dev/pyq/cse/sem3/dsa/2022/end/sem3-pyq-2022.pdf"
+    "exam_type": "mid",
+    "filename": "2022 Mid Sem.pdf",
+    "url": "https://kvibespyq.pages.dev/pyq/cse/sem3/dsa/mid/2022 Mid Sem.pdf"
+  },
+  {
+    "content_type": "pyq",
+    "department": "CSE",
+    "semester": "sem3",
+    "subject": "Dsa",
+    "year": "2021",
+    "exam_type": "mid",
+    "filename": "2021 Mid Sem.pdf",
+    "url": "https://kvibespyq.pages.dev/pyq/cse/sem3/dsa/mid/2021 Mid Sem.pdf"
+  },
+  {
+    "content_type": "pyq",
+    "department": "CSE",
+    "semester": "sem3",
+    "subject": "Dsa",
+    "year": "2020",
+    "exam_type": "mid",
+    "filename": "2020 Mid Sem.pdf",
+    "url": "https://kvibespyq.pages.dev/pyq/cse/sem3/dsa/mid/2020 Mid Sem.pdf"
+  },
+  {
+    "content_type": "pyq",
+    "department": "CSE",
+    "semester": "sem3",
+    "subject": "Dsa",
+    "year": "2019",
+    "exam_type": "mid",
+    "filename": "2019 Mid Sem.pdf",
+    "url": "https://kvibespyq.pages.dev/pyq/cse/sem3/dsa/mid/2019 Mid Sem.pdf"
+  },
+  {
+    "content_type": "pyq",
+    "department": "CSE",
+    "semester": "sem3",
+    "subject": "Dsa",
+    "year": "2018",
+    "exam_type": "mid",
+    "filename": "2018 Mid Sem.pdf",
+    "url": "https://kvibespyq.pages.dev/pyq/cse/sem3/dsa/mid/2018 Mid Sem.pdf"
+  },
+  {
+    "content_type": "pyq",
+    "department": "CSE",
+    "semester": "sem3",
+    "subject": "Dsa",
+    "year": "2017",
+    "exam_type": "mid",
+    "filename": "2017 Mid Sem.pdf",
+    "url": "https://kvibespyq.pages.dev/pyq/cse/sem3/dsa/mid/2017 Mid Sem.pdf"
+  },
+  {
+    "content_type": "pyq",
+    "department": "CSE",
+    "semester": "sem3",
+    "subject": "Dsa",
+    "year": "2016",
+    "exam_type": "mid",
+    "filename": "2016 Mid Sem.pdf",
+    "url": "https://kvibespyq.pages.dev/pyq/cse/sem3/dsa/mid/2016 Mid Sem.pdf"
+  },
+  {
+    "content_type": "pyq",
+    "department": "CSE",
+    "semester": "sem3",
+    "subject": "Dsa",
+    "year": "2015",
+    "exam_type": "mid",
+    "filename": "2015 Mid Sem.pdf",
+    "url": "https://kvibespyq.pages.dev/pyq/cse/sem3/dsa/mid/2015 Mid Sem.pdf"
+  },
+  {
+    "content_type": "pyq",
+    "department": "CSE",
+    "semester": "sem3",
+    "subject": "Dsa",
+    "year": "2014",
+    "exam_type": "mid",
+    "filename": "2014 Mid Sem.pdf",
+    "url": "https://kvibespyq.pages.dev/pyq/cse/sem3/dsa/mid/2014 Mid Sem.pdf"
   }
 ]
