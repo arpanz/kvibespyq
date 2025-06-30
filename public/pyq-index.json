@@ -264,6 +264,56 @@
     "department": "CSE",
     "semester": "sem4",
     "subject": "Dbms",
+    "year": "2022",
+    "exam_type": "end",
+    "filename": "2022 End Sem.pdf",
+    "url": "https://kvibespyq.pages.dev/pyq/cse/sem4/DBMS/END/2022 End Sem.pdf"
+  },
+  {
+    "content_type": "pyq",
+    "department": "CSE",
+    "semester": "sem4",
+    "subject": "Dbms",
+    "year": "2021",
+    "exam_type": "end",
+    "filename": "2021 End Sem Autumn.pdf",
+    "url": "https://kvibespyq.pages.dev/pyq/cse/sem4/DBMS/END/2021 End Sem Autumn.pdf"
+  },
+  {
+    "content_type": "pyq",
+    "department": "CSE",
+    "semester": "sem4",
+    "subject": "Dbms",
+    "year": "2021",
+    "exam_type": "end",
+    "filename": "2021 End Sem.pdf",
+    "url": "https://kvibespyq.pages.dev/pyq/cse/sem4/DBMS/END/2021 End Sem.pdf"
+  },
+  {
+    "content_type": "pyq",
+    "department": "CSE",
+    "semester": "sem4",
+    "subject": "Dbms",
+    "year": "2021",
+    "exam_type": "end",
+    "filename": "DBMS_END_2021.pdf",
+    "url": "https://kvibespyq.pages.dev/pyq/cse/sem4/DBMS/END/DBMS_END_2021.pdf"
+  },
+  {
+    "content_type": "pyq",
+    "department": "CSE",
+    "semester": "sem4",
+    "subject": "Dbms",
+    "year": "2020",
+    "exam_type": "end",
+    "filename": "2020 End Sem Autumn.pdf",
+    "url": "https://kvibespyq.pages.dev/pyq/cse/sem4/DBMS/END/2020 End Sem Autumn.pdf"
+  },
+  {
+    "content_type": "pyq",
+    "department": "CSE",
+    "semester": "sem4",
+    "subject": "Dbms",
     "year": "2019",
     "exam_type": "end",
     "filename": "DBMS_2019_END.pdf",

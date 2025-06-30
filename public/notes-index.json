@@ -18,6 +18,14 @@
   {
     "content_type": "notes",
     "department": "CSE",
+    "semester": "sem4",
+    "subject": "Dbms",
+    "filename": "DBMS notes_Anurag.pdf",
+    "url": "https://kvibespyq.pages.dev/notes/CSE/sem4/dbms/DBMS notes_Anurag.pdf"
+  },
+  {
+    "content_type": "notes",
+    "department": "CSE",
     "semester": "sem5",
     "subject": "Daa",
     "filename": "DBMS_2019_Sol.pdf",
