@@ -51,7 +51,7 @@ def generate_pyq_index() -> None:
                 "content_type": "pyq",
                 "department": dept.upper(),
                 "semester": sem,
-                "subject": subj.replace("-", " ").title(),
+                "subject": subj.replace("-", " ").upper().title(),
                 "year": year,
                 "exam_type": exam_lc,
                 "filename": filename,
@@ -87,7 +87,7 @@ def generate_notes_index() -> None:
                 "content_type": "notes",
                 "department": dept.upper(),
                 "semester": sem,
-                "subject": subj.replace("-", " ").title(),
+                "subject": subj.replace("-", " ").upper().title(),
                 "filename": filename,
                 "url": f"{BASE_URL}/{'/'.join(parts)}",
             }
