@@ -7,6 +7,12 @@
 import json
 import pathlib
 import re
+from urllib.parse import quote
+
+def make_url(parts: tuple[str, ...]) -> str:
+    """Return BASE_URL/ encoded_path ; slashes stay, everything else is %xx."""
+    return f"{BASE_URL}/" + "/".join(quote(seg, safe='') for seg in parts)
+
 
 BASE_DIR = pathlib.Path("public")          # root of stored files
 BASE_URL = "https://kvibespyq.pages.dev"   # URL prefix
@@ -50,7 +56,7 @@ def generate_pyq_index() -> None:
                 "year": year,
                 "exam_type": exam_lc,
                 "filename": filename,
-                "url": f"{BASE_URL}/{'/'.join(parts)}",
+                "url": make_url(parts),
             }
         )
 
@@ -91,7 +97,7 @@ def generate_notes_index() -> None:
                 "semester": sem,
                 "subject": subj.replace("-", " ").upper(),
                 "filename": filename,
-                "url": f"{BASE_URL}/{'/'.join(parts)}",
+                "url": make_url(parts),
             }
         )
 
