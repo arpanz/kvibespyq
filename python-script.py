@@ -74,30 +74,30 @@ def generate_pyq_index() -> None:
 # ──────────────────────────────────────────────────────────────────────────────
 def generate_notes_index() -> None:
     entries = []
-
-    for pdf_path in (BASE_DIR / "notes").rglob("*.pdf"):
-        parts = pdf_path.relative_to(BASE_DIR).parts    # notes/dep/sem/sub/file
+    # Include both PDF and ZIP files
+    for file_path in (BASE_DIR / "notes").rglob("*"):
+        if file_path.suffix.lower() not in ['.pdf', '.zip']:
+            continue
+            
+        parts = file_path.relative_to(BASE_DIR).parts
         if len(parts) != 5 or parts[0] != "notes":
-            print(f"SKIP  malformed notes path: {pdf_path}")
+            print(f"SKIP malformed notes path: {file_path}")
             continue
 
         _, dept, sem, subj, filename = parts
-        entries.append(
-            {
-                "content_type": "notes",
-                "department": dept.upper(),
-                "semester": sem,
-                "subject": subj.replace("-", " ").title().upper(),
-                "filename": filename,
-                "url": f"{BASE_URL}/{'/'.join(parts)}",
-            }
-        )
+
+        entries.append({
+            "content_type": "notes",
+            "department": dept.upper(),
+            "semester": sem,
+            "subject": subj.replace("-", " ").title().upper(),
+            "filename": filename,
+            "url": f"{BASE_URL}/{'/'.join(parts)}",
+        })
 
     entries.sort(key=lambda x: (x["department"], x["semester"], x["subject"], x["filename"]))
-
     (BASE_DIR / "notes-index.json").write_text(json.dumps(entries, indent=2))
     print(f"Generated notes-index.json with {len(entries)} entries")
-
 
 # ──────────────────────────────────────────────────────────────────────────────
 if __name__ == "__main__":
