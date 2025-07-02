@@ -24,10 +24,6 @@ def generate_pyq_index() -> None:
         if parts[0] != "pyq":
             continue
 
-        # pattern 1: pyq/dep/sem/subj/year/exam/file.pdf
-        if len(parts) == 7:
-            _, dept, sem, subj, year, exam, filename = parts
-
         # pattern 2: pyq/dep/sem/subj/exam/file.pdf  → year from filename
         elif len(parts) == 6:
             _, dept, sem, subj, exam, filename = parts
