@@ -425,6 +425,16 @@
     "semester": "sem3",
     "subject": "DSA",
     "year": "2022",
+    "exam_type": "end",
+    "filename": "2022 Mid Sem.pdf",
+    "url": "https://kvibespyq.pages.dev/pyq/cse/sem3/DSA/end/2022 Mid Sem.pdf"
+  },
+  {
+    "content_type": "pyq",
+    "department": "CSE",
+    "semester": "sem3",
+    "subject": "DSA",
+    "year": "2022",
     "exam_type": "mid",
     "filename": "2022 Mid Sem.pdf",
     "url": "https://kvibespyq.pages.dev/pyq/cse/sem3/DSA/mid/2022 Mid Sem.pdf"
