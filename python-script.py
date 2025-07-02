@@ -7,15 +7,10 @@ import re
 BASE_DIR = pathlib.Path("public")
 BASE_URL = "https://kvibespyq.pages.dev"
 
-# year not touching another digit on either side
-YEAR_RE = re.compile(r"(?<!\d)(?:19|20)\d{2}(?!\d)", re.ASCII)
+EXAM_TYPES = {"mid", "end", "suppl"}          # adjust if you add more
+# 4-digit year that is not glued to another digit on either side
+YEAR_RE = re.compile(r"(?<!\d)(?:19|20)\d{2}(?!\d)")      # [5][6]
 
-EXAM_TYPES = {"mid", "end"}                 # allowed exam-type folders
-
-
-# ──────────────────────────────────────────────────────────────────────────────
-# PYQ INDEX
-# ──────────────────────────────────────────────────────────────────────────────
 def generate_pyq_index() -> None:
     entries = []
 
@@ -24,22 +19,25 @@ def generate_pyq_index() -> None:
         if parts[0] != "pyq":
             continue
 
-        # pattern 2: pyq/dep/sem/subj/exam/file.pdf  → year from filename
-        elif len(parts) == 6:
-            _, dept, sem, subj, exam, filename = parts
-            m = YEAR_RE.search(filename)
-            if not m:
-                print(f"SKIP  no year in filename: {pdf_path.name}")
-                continue
-            year = m.group(0)
-
-        else:
-            print(f"SKIP  malformed path: {pdf_path}")
+        # ---------------------------------------------------------------------
+        # ONLY the 6-segment pattern is kept:  pyq/dep/sem/subj/exam/file.pdf
+        # ---------------------------------------------------------------------
+        if len(parts) != 6:
+            print(f"SKIP malformed path: {pdf_path}")
             continue
+
+        _, dept, sem, subj, exam, filename = parts
+
+        # pick the year from the *filename* (e.g. “2024 Mid Spring.pdf”)
+        m = YEAR_RE.search(filename)
+        if not m:
+            print(f"SKIP no year in filename: {filename}")
+            continue
+        year = m.group(0)
 
         exam_lc = exam.lower()
         if exam_lc not in EXAM_TYPES:
-            print(f"SKIP  unknown exam-type folder: {pdf_path}")
+            print(f"SKIP unknown exam-type folder: {pdf_path}")
             continue
 
         entries.append(
@@ -55,7 +53,7 @@ def generate_pyq_index() -> None:
             }
         )
 
-    # newest first inside each grouping
+    # newest year first inside each grouping
     entries.sort(
         key=lambda x: (x["department"], x["semester"], x["subject"], x["year"]),
         reverse=True,
