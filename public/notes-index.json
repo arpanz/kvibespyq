@@ -20,6 +20,14 @@
     "department": "CSE",
     "semester": "sem3",
     "subject": "STW",
+    "filename": "STW_complete_notes.zip",
+    "url": "https://kvibespyq.pages.dev/notes/CSE/sem3/stw/STW_complete_notes.zip"
+  },
+  {
+    "content_type": "notes",
+    "department": "CSE",
+    "semester": "sem3",
+    "subject": "STW",
     "filename": "scientific and technical writing.zip",
     "url": "https://kvibespyq.pages.dev/notes/CSE/sem3/stw/scientific and technical writing.zip"
   },
@@ -38,6 +46,14 @@
     "subject": "DS (DISCRETE)",
     "filename": "Discrete_Mathematics Note.pdf",
     "url": "https://kvibespyq.pages.dev/notes/CSE/sem4/ds-(discrete)/Discrete_Mathematics Note.pdf"
+  },
+  {
+    "content_type": "notes",
+    "department": "CSE",
+    "semester": "sem4",
+    "subject": "OS",
+    "filename": "lucky.pdf",
+    "url": "https://kvibespyq.pages.dev/notes/CSE/sem4/Os/lucky.pdf"
   },
   {
     "content_type": "notes",
