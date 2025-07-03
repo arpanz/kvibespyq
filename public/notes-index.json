@@ -44,23 +44,23 @@
     "department": "CSE",
     "semester": "sem4",
     "subject": "DS (DISCRETE)",
-    "filename": "Discrete_Mathematics Note.pdf",
-    "url": "https://kvibespyq.pages.dev/notes/CSE/sem4/ds-(discrete)/Discrete_Mathematics Note.pdf"
+    "filename": "Discrete_Mathematics Notes.pdf",
+    "url": "https://kvibespyq.pages.dev/notes/CSE/sem4/ds-(discrete)/Discrete_Mathematics Notes.pdf"
   },
   {
     "content_type": "notes",
     "department": "CSE",
     "semester": "sem4",
     "subject": "OS",
-    "filename": "OS_Notes_Complete_by_Prof._Bacchanidhi.pdf",
+    "filename": "OS Notes Complete by Prof. Bacchanidhi.pdf",
     "url": "https://drive.google.com/uc?export=download&id=1F1FUKpUFpQPFvqEd2VAVeBQHdPTeaFkQ"
   },
   {
     "content_type": "notes",
     "department": "CSE",
-    "semester": "sem4",
-    "subject": "OS",
-    "filename": "lucky.pdf",
-    "url": "https://kvibespyq.pages.dev/notes/CSE/sem4/Os/lucky.pdf"
+    "semester": "sem5",
+    "subject": "DAA",
+    "filename": "DBMS_2019_Sol.pdf",
+    "url": "https://kvibespyq.pages.dev/notes/CSE/sem5/daa/DBMS_2019_Sol.pdf"
   }
 ]
