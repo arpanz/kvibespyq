@@ -2,6 +2,166 @@
   {
     "content_type": "pyq",
     "department": "CSE",
+    "semester": "sem5",
+    "subject": "DAA",
+    "year": "2023",
+    "exam_type": "end",
+    "filename": "2023 Design and Analysis of Algorithms(CS 2012) END SEM.pdf",
+    "url": "https://kvibespyq.pages.dev/pyq/CSE/sem5/DAA/END/2023 Design and Analysis of Algorithms(CS 2012) END SEM.pdf"
+  },
+  {
+    "content_type": "pyq",
+    "department": "CSE",
+    "semester": "sem5",
+    "subject": "DAA",
+    "year": "2023",
+    "exam_type": "end",
+    "filename": "2023 EndSem DAA Solution Revised v3.pdf",
+    "url": "https://kvibespyq.pages.dev/pyq/CSE/sem5/DAA/END/2023 EndSem DAA Solution Revised v3.pdf"
+  },
+  {
+    "content_type": "pyq",
+    "department": "CSE",
+    "semester": "sem5",
+    "subject": "DAA",
+    "year": "2022",
+    "exam_type": "end",
+    "filename": "2022 End Semester Question Paper - Autumn 2022 - DAA-CS2012.pdf",
+    "url": "https://kvibespyq.pages.dev/pyq/CSE/sem5/DAA/END/2022 End Semester Question Paper - Autumn 2022 - DAA-CS2012.pdf"
+  },
+  {
+    "content_type": "pyq",
+    "department": "CSE",
+    "semester": "sem5",
+    "subject": "DAA",
+    "year": "2022",
+    "exam_type": "end",
+    "filename": "2022 End Semester Solution Set.pdf",
+    "url": "https://kvibespyq.pages.dev/pyq/CSE/sem5/DAA/END/2022 End Semester Solution Set.pdf"
+  },
+  {
+    "content_type": "pyq",
+    "department": "CSE",
+    "semester": "sem5",
+    "subject": "DAA",
+    "year": "2021",
+    "exam_type": "end",
+    "filename": "2021 DAA END-AUTUMN SOLUTION.pdf",
+    "url": "https://kvibespyq.pages.dev/pyq/CSE/sem5/DAA/END/2021 DAA END-AUTUMN SOLUTION.pdf"
+  },
+  {
+    "content_type": "pyq",
+    "department": "CSE",
+    "semester": "sem5",
+    "subject": "DAA",
+    "year": "2021",
+    "exam_type": "mid",
+    "filename": "2021 mid daa.pdf",
+    "url": "https://kvibespyq.pages.dev/pyq/CSE/sem5/DAA/MID/2021 mid daa.pdf"
+  },
+  {
+    "content_type": "pyq",
+    "department": "CSE",
+    "semester": "sem5",
+    "subject": "DAA",
+    "year": "2020",
+    "exam_type": "end",
+    "filename": "2020 DAA END-AUTUMN SOLUTION.pdf",
+    "url": "https://kvibespyq.pages.dev/pyq/CSE/sem5/DAA/END/2020 DAA END-AUTUMN SOLUTION.pdf"
+  },
+  {
+    "content_type": "pyq",
+    "department": "CSE",
+    "semester": "sem5",
+    "subject": "DAA",
+    "year": "2019",
+    "exam_type": "end",
+    "filename": "2019 DAA END-REGULAR SOLUTION.pdf",
+    "url": "https://kvibespyq.pages.dev/pyq/CSE/sem5/DAA/END/2019 DAA END-REGULAR SOLUTION.pdf"
+  },
+  {
+    "content_type": "pyq",
+    "department": "CSE",
+    "semester": "sem5",
+    "subject": "DAA",
+    "year": "2019",
+    "exam_type": "mid",
+    "filename": "2019_mid_aut_daa.pdf",
+    "url": "https://kvibespyq.pages.dev/pyq/CSE/sem5/DAA/MID/2019_mid_aut_daa.pdf"
+  },
+  {
+    "content_type": "pyq",
+    "department": "CSE",
+    "semester": "sem5",
+    "subject": "DAA",
+    "year": "2019",
+    "exam_type": "mid",
+    "filename": "2019_mid_daa.pdf",
+    "url": "https://kvibespyq.pages.dev/pyq/CSE/sem5/DAA/MID/2019_mid_daa.pdf"
+  },
+  {
+    "content_type": "pyq",
+    "department": "CSE",
+    "semester": "sem5",
+    "subject": "DAA",
+    "year": "2018",
+    "exam_type": "end",
+    "filename": "2018 DAA END-REGULAR SOLUTION.pdf",
+    "url": "https://kvibespyq.pages.dev/pyq/CSE/sem5/DAA/END/2018 DAA END-REGULAR SOLUTION.pdf"
+  },
+  {
+    "content_type": "pyq",
+    "department": "CSE",
+    "semester": "sem5",
+    "subject": "DAA",
+    "year": "2018",
+    "exam_type": "mid",
+    "filename": "2018_mid_daa.pdf",
+    "url": "https://kvibespyq.pages.dev/pyq/CSE/sem5/DAA/MID/2018_mid_daa.pdf"
+  },
+  {
+    "content_type": "pyq",
+    "department": "CSE",
+    "semester": "sem5",
+    "subject": "DAA",
+    "year": "2017",
+    "exam_type": "mid",
+    "filename": "2017 spring mid.pdf",
+    "url": "https://kvibespyq.pages.dev/pyq/CSE/sem5/DAA/MID/2017 spring mid.pdf"
+  },
+  {
+    "content_type": "pyq",
+    "department": "CSE",
+    "semester": "sem5",
+    "subject": "DAA",
+    "year": "2017",
+    "exam_type": "mid",
+    "filename": "2017_mid_daa_soln.pdf",
+    "url": "https://kvibespyq.pages.dev/pyq/CSE/sem5/DAA/MID/2017_mid_daa_soln.pdf"
+  },
+  {
+    "content_type": "pyq",
+    "department": "CSE",
+    "semester": "sem5",
+    "subject": "DAA",
+    "year": "2016",
+    "exam_type": "end",
+    "filename": "2016 DAA END-REGULAR SOLUTION.pdf",
+    "url": "https://kvibespyq.pages.dev/pyq/CSE/sem5/DAA/END/2016 DAA END-REGULAR SOLUTION.pdf"
+  },
+  {
+    "content_type": "pyq",
+    "department": "CSE",
+    "semester": "sem5",
+    "subject": "DAA",
+    "year": "2015",
+    "exam_type": "end",
+    "filename": "2015 DAA END-AUTUMN SOLUTION.pdf",
+    "url": "https://kvibespyq.pages.dev/pyq/CSE/sem5/DAA/END/2015 DAA END-AUTUMN SOLUTION.pdf"
+  },
+  {
+    "content_type": "pyq",
+    "department": "CSE",
     "semester": "sem4",
     "subject": "OOPJ",
     "year": "2024",
