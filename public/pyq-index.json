@@ -162,6 +162,56 @@
   {
     "content_type": "pyq",
     "department": "CSE",
+    "semester": "sem5",
+    "subject": "CN",
+    "year": "2024",
+    "exam_type": "mid",
+    "filename": "2024 mid.pdf",
+    "url": "https://kvibespyq.pages.dev/pyq/CSE/sem5/CN/mid/2024 mid.pdf"
+  },
+  {
+    "content_type": "pyq",
+    "department": "CSE",
+    "semester": "sem5",
+    "subject": "CN",
+    "year": "2023",
+    "exam_type": "mid",
+    "filename": "2023 mid.pdf",
+    "url": "https://kvibespyq.pages.dev/pyq/CSE/sem5/CN/mid/2023 mid.pdf"
+  },
+  {
+    "content_type": "pyq",
+    "department": "CSE",
+    "semester": "sem5",
+    "subject": "CN",
+    "year": "2022",
+    "exam_type": "mid",
+    "filename": "2022 mid.pdf",
+    "url": "https://kvibespyq.pages.dev/pyq/CSE/sem5/CN/mid/2022 mid.pdf"
+  },
+  {
+    "content_type": "pyq",
+    "department": "CSE",
+    "semester": "sem5",
+    "subject": "CN",
+    "year": "2020",
+    "exam_type": "mid",
+    "filename": "2020 mid.pdf",
+    "url": "https://kvibespyq.pages.dev/pyq/CSE/sem5/CN/mid/2020 mid.pdf"
+  },
+  {
+    "content_type": "pyq",
+    "department": "CSE",
+    "semester": "sem5",
+    "subject": "CN",
+    "year": "2019",
+    "exam_type": "mid",
+    "filename": "2019 mid.pdf",
+    "url": "https://kvibespyq.pages.dev/pyq/CSE/sem5/CN/mid/2019 mid.pdf"
+  },
+  {
+    "content_type": "pyq",
+    "department": "CSE",
     "semester": "sem4",
     "subject": "OOPJ",
     "year": "2024",
