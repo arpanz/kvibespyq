@@ -60,15 +60,7 @@
     "department": "CSE",
     "semester": "sem5",
     "subject": "CN",
-    "filename": "CN PPts",
-    "url": "https://drive.google.com/uc?export=download&id=1Dp87X52FskAnoh_dY7cBsW3BTpgfkZah"
-  },
-  {
-    "content_type": "notes",
-    "department": "CSE",
-    "semester": "sem5",
-    "subject": "CN",
-    "filename": "Complete CN Notes.pdf",
+    "filename": "Complete CN PPts combined.pdf",
     "url": "https://drive.google.com/uc?export=download&id=1OQq-rII65-wmUC1fuEeMDtKyNAuaB-TD"
   },
   {
@@ -78,6 +70,14 @@
     "subject": "DAA",
     "filename": "Alok SuperNotes DAA.pdf",
     "url": "https://kvibespyq.pages.dev/notes/CSE/sem5/DAA/Alok SuperNotes DAA.pdf"
+  },
+  {
+    "content_type": "notes",
+    "department": "CSE",
+    "semester": "sem5",
+    "subject": "DAA",
+    "filename": "Anil Kumar Swain Notes.zip",
+    "url": "https://kvibespyq.pages.dev/notes/CSE/sem5/DAA/Anil Kumar Swain Notes.zip"
   },
   {
     "content_type": "notes",
