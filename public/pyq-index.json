@@ -24,16 +24,6 @@
     "department": "CSE",
     "semester": "sem5",
     "subject": "EE",
-    "year": "2024",
-    "exam_type": "mid",
-    "filename": "2024 mid ee.pdf",
-    "url": "https://kvibespyq.pages.dev/pyq/CSE/sem5/EE/mid/2024 mid ee.pdf"
-  },
-  {
-    "content_type": "pyq",
-    "department": "CSE",
-    "semester": "sem5",
-    "subject": "EE",
     "year": "2022",
     "exam_type": "mid",
     "filename": "2022 mid ee.pdf",
@@ -58,16 +48,6 @@
     "exam_type": "mid",
     "filename": "2019 mid ee.pdf",
     "url": "https://kvibespyq.pages.dev/pyq/CSE/sem5/EE/mid/2019 mid ee.pdf"
-  },
-  {
-    "content_type": "pyq",
-    "department": "CSE",
-    "semester": "sem5",
-    "subject": "EE",
-    "year": "2019",
-    "exam_type": "mid",
-    "filename": "2019 mid.pdf",
-    "url": "https://kvibespyq.pages.dev/pyq/CSE/sem5/EE/mid/2019 mid.pdf"
   },
   {
     "content_type": "pyq",
