@@ -17,7 +17,7 @@ from typing import List, Dict
 
 # ────────────── configuration ────────────────────────────────────────────
 BASE_DIR = pathlib.Path("public")           # folder scanned for PDFs / ZIPs
-BASE_URL = "https://kvibespyq.pages.dev"    # Cloudflare Pages base URL
+BASE_URL = "https://kvibespyq.netlify.app"    # Cloudflare Pages base URL
 
 EXAM_TYPES = {"mid", "end"}                 # accepted folder names for PYQs
 YEAR_RE = re.compile(r"(?<!\d)\d{4}(?!\d)") # exactly 4 successive digits
