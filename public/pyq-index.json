@@ -304,6 +304,16 @@
     "department": "CSE",
     "semester": "sem4",
     "subject": "OOPJ",
+    "year": "2025",
+    "exam_type": "mid",
+    "filename": "oopj_midsem_2025.pdf",
+    "url": "https://kvibespyq.netlify.app/pyq/CSE/sem4/OOPJ/mid/oopj_midsem_2025.pdf"
+  },
+  {
+    "content_type": "pyq",
+    "department": "CSE",
+    "semester": "sem4",
+    "subject": "OOPJ",
     "year": "2024",
     "exam_type": "end",
     "filename": "2024 End Autumn 1.pdf",
@@ -646,8 +656,8 @@
     "subject": "STW",
     "year": "2024",
     "exam_type": "mid",
-    "filename": "2024_1 (2).pdf",
-    "url": "https://kvibespyq.netlify.app/pyq/CSE/sem3/STW/mid/2024_1 (2).pdf"
+    "filename": "2024 mid stw.pdf",
+    "url": "https://kvibespyq.netlify.app/pyq/CSE/sem3/STW/mid/2024 mid stw.pdf"
   },
   {
     "content_type": "pyq",
@@ -656,8 +666,8 @@
     "subject": "STW",
     "year": "2024",
     "exam_type": "mid",
-    "filename": "2024_2 (2).pdf",
-    "url": "https://kvibespyq.netlify.app/pyq/CSE/sem3/STW/mid/2024_2 (2).pdf"
+    "filename": "2024_2 stw mid.pdf",
+    "url": "https://kvibespyq.netlify.app/pyq/CSE/sem3/STW/mid/2024_2 stw mid.pdf"
   },
   {
     "content_type": "pyq",
@@ -686,8 +696,8 @@
     "subject": "STW",
     "year": "2023",
     "exam_type": "mid",
-    "filename": "2023 (1).pdf",
-    "url": "https://kvibespyq.netlify.app/pyq/CSE/sem3/STW/mid/2023 (1).pdf"
+    "filename": "2023 stw mid.pdf",
+    "url": "https://kvibespyq.netlify.app/pyq/CSE/sem3/STW/mid/2023 stw mid.pdf"
   },
   {
     "content_type": "pyq",
@@ -748,6 +758,26 @@
     "exam_type": "mid",
     "filename": "midsem - 2018.pdf",
     "url": "https://kvibespyq.netlify.app/pyq/CSE/sem3/PS/mid/midsem - 2018.pdf"
+  },
+  {
+    "content_type": "pyq",
+    "department": "CSE",
+    "semester": "sem3",
+    "subject": "DSD",
+    "year": "2024",
+    "exam_type": "mid",
+    "filename": "2024 mid dsd.pdf",
+    "url": "https://kvibespyq.netlify.app/pyq/CSE/sem3/DSD/mid/2024 mid dsd.pdf"
+  },
+  {
+    "content_type": "pyq",
+    "department": "CSE",
+    "semester": "sem3",
+    "subject": "DSD",
+    "year": "2023",
+    "exam_type": "mid",
+    "filename": "2023 mid dsd.pdf",
+    "url": "https://kvibespyq.netlify.app/pyq/CSE/sem3/DSD/mid/2023 mid dsd.pdf"
   },
   {
     "content_type": "pyq",
