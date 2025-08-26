@@ -114,6 +114,26 @@
     "department": "CSE",
     "semester": "sem5",
     "subject": "DAA",
+    "year": "2023",
+    "exam_type": "mid",
+    "filename": "2023 CS2012 DAA Midsem Solution Final.pdf",
+    "url": "https://kvibespyq.netlify.app/pyq/CSE/sem5/DAA/MID/2023 CS2012 DAA Midsem Solution Final.pdf"
+  },
+  {
+    "content_type": "pyq",
+    "department": "CSE",
+    "semester": "sem5",
+    "subject": "DAA",
+    "year": "2023",
+    "exam_type": "mid",
+    "filename": "2023 CS2012 DAA Midsem Solution.pdf",
+    "url": "https://kvibespyq.netlify.app/pyq/CSE/sem5/DAA/MID/2023 CS2012 DAA Midsem Solution.pdf"
+  },
+  {
+    "content_type": "pyq",
+    "department": "CSE",
+    "semester": "sem5",
+    "subject": "DAA",
     "year": "2022",
     "exam_type": "end",
     "filename": "2022 End Semester Question Paper - Autumn 2022 - DAA-CS2012.pdf",
@@ -128,6 +148,16 @@
     "exam_type": "end",
     "filename": "2022 End Semester Solution Set.pdf",
     "url": "https://kvibespyq.netlify.app/pyq/CSE/sem5/DAA/END/2022 End Semester Solution Set.pdf"
+  },
+  {
+    "content_type": "pyq",
+    "department": "CSE",
+    "semester": "sem5",
+    "subject": "DAA",
+    "year": "2022",
+    "exam_type": "mid",
+    "filename": "2022-DAA-QS-MID-REGULAR.pdf",
+    "url": "https://kvibespyq.netlify.app/pyq/CSE/sem5/DAA/MID/2022-DAA-QS-MID-REGULAR.pdf"
   },
   {
     "content_type": "pyq",
@@ -154,10 +184,30 @@
     "department": "CSE",
     "semester": "sem5",
     "subject": "DAA",
+    "year": "2021",
+    "exam_type": "mid",
+    "filename": "2021-DAA-MID-SOLUTION-REGULAR.pdf",
+    "url": "https://kvibespyq.netlify.app/pyq/CSE/sem5/DAA/MID/2021-DAA-MID-SOLUTION-REGULAR.pdf"
+  },
+  {
+    "content_type": "pyq",
+    "department": "CSE",
+    "semester": "sem5",
+    "subject": "DAA",
     "year": "2020",
     "exam_type": "end",
     "filename": "2020 DAA END-AUTUMN SOLUTION.pdf",
     "url": "https://kvibespyq.netlify.app/pyq/CSE/sem5/DAA/END/2020 DAA END-AUTUMN SOLUTION.pdf"
+  },
+  {
+    "content_type": "pyq",
+    "department": "CSE",
+    "semester": "sem5",
+    "subject": "DAA",
+    "year": "2020",
+    "exam_type": "mid",
+    "filename": "2020 DAA-QS MID-REGULAR.pdf",
+    "url": "https://kvibespyq.netlify.app/pyq/CSE/sem5/DAA/MID/2020 DAA-QS MID-REGULAR.pdf"
   },
   {
     "content_type": "pyq",
@@ -216,8 +266,18 @@
     "subject": "DAA",
     "year": "2017",
     "exam_type": "mid",
-    "filename": "2017 spring mid.pdf",
-    "url": "https://kvibespyq.netlify.app/pyq/CSE/sem5/DAA/MID/2017 spring mid.pdf"
+    "filename": "2017 DAA-QS MID-REGULAR.pdf",
+    "url": "https://kvibespyq.netlify.app/pyq/CSE/sem5/DAA/MID/2017 DAA-QS MID-REGULAR.pdf"
+  },
+  {
+    "content_type": "pyq",
+    "department": "CSE",
+    "semester": "sem5",
+    "subject": "DAA",
+    "year": "2017",
+    "exam_type": "mid",
+    "filename": "2017 DAA-SOL MID-REGULAR.pdf",
+    "url": "https://kvibespyq.netlify.app/pyq/CSE/sem5/DAA/MID/2017 DAA-SOL MID-REGULAR.pdf"
   },
   {
     "content_type": "pyq",
@@ -244,6 +304,36 @@
     "department": "CSE",
     "semester": "sem5",
     "subject": "DAA",
+    "year": "2016",
+    "exam_type": "mid",
+    "filename": "2016 DAA-QS MID-REGULAR.pdf",
+    "url": "https://kvibespyq.netlify.app/pyq/CSE/sem5/DAA/MID/2016 DAA-QS MID-REGULAR.pdf"
+  },
+  {
+    "content_type": "pyq",
+    "department": "CSE",
+    "semester": "sem5",
+    "subject": "DAA",
+    "year": "2016",
+    "exam_type": "mid",
+    "filename": "2016 DAA-QS MID-SUPLEMENTARY.pdf",
+    "url": "https://kvibespyq.netlify.app/pyq/CSE/sem5/DAA/MID/2016 DAA-QS MID-SUPLEMENTARY.pdf"
+  },
+  {
+    "content_type": "pyq",
+    "department": "CSE",
+    "semester": "sem5",
+    "subject": "DAA",
+    "year": "2016",
+    "exam_type": "mid",
+    "filename": "2016 DAA-SOL MID-REGULAR.pdf",
+    "url": "https://kvibespyq.netlify.app/pyq/CSE/sem5/DAA/MID/2016 DAA-SOL MID-REGULAR.pdf"
+  },
+  {
+    "content_type": "pyq",
+    "department": "CSE",
+    "semester": "sem5",
+    "subject": "DAA",
     "year": "2015",
     "exam_type": "end",
     "filename": "2015 DAA END-AUTUMN SOLUTION.pdf",
@@ -253,11 +343,31 @@
     "content_type": "pyq",
     "department": "CSE",
     "semester": "sem5",
+    "subject": "DAA",
+    "year": "2015",
+    "exam_type": "mid",
+    "filename": "2015 DAA-QS MID-REGULAR.pdf",
+    "url": "https://kvibespyq.netlify.app/pyq/CSE/sem5/DAA/MID/2015 DAA-QS MID-REGULAR.pdf"
+  },
+  {
+    "content_type": "pyq",
+    "department": "CSE",
+    "semester": "sem5",
+    "subject": "DAA",
+    "year": "2015",
+    "exam_type": "mid",
+    "filename": "2015 DAA-SOL MID-REGULAR.pdf",
+    "url": "https://kvibespyq.netlify.app/pyq/CSE/sem5/DAA/MID/2015 DAA-SOL MID-REGULAR.pdf"
+  },
+  {
+    "content_type": "pyq",
+    "department": "CSE",
+    "semester": "sem5",
     "subject": "CN",
     "year": "2024",
     "exam_type": "mid",
-    "filename": "2024 mid.pdf",
-    "url": "https://kvibespyq.netlify.app/pyq/CSE/sem5/CN/mid/2024 mid.pdf"
+    "filename": "2024 mid (1).pdf",
+    "url": "https://kvibespyq.netlify.app/pyq/CSE/sem5/CN/mid/2024 mid (1).pdf"
   },
   {
     "content_type": "pyq",
@@ -276,8 +386,8 @@
     "subject": "CN",
     "year": "2022",
     "exam_type": "mid",
-    "filename": "2022 mid.pdf",
-    "url": "https://kvibespyq.netlify.app/pyq/CSE/sem5/CN/mid/2022 mid.pdf"
+    "filename": "2022 mid (1).pdf",
+    "url": "https://kvibespyq.netlify.app/pyq/CSE/sem5/CN/mid/2022 mid (1).pdf"
   },
   {
     "content_type": "pyq",
@@ -286,8 +396,8 @@
     "subject": "CN",
     "year": "2020",
     "exam_type": "mid",
-    "filename": "2020 mid.pdf",
-    "url": "https://kvibespyq.netlify.app/pyq/CSE/sem5/CN/mid/2020 mid.pdf"
+    "filename": "2020 mid (1).pdf",
+    "url": "https://kvibespyq.netlify.app/pyq/CSE/sem5/CN/mid/2020 mid (1).pdf"
   },
   {
     "content_type": "pyq",
@@ -296,8 +406,8 @@
     "subject": "CN",
     "year": "2019",
     "exam_type": "mid",
-    "filename": "2019 mid.pdf",
-    "url": "https://kvibespyq.netlify.app/pyq/CSE/sem5/CN/mid/2019 mid.pdf"
+    "filename": "2019 mid (1).pdf",
+    "url": "https://kvibespyq.netlify.app/pyq/CSE/sem5/CN/mid/2019 mid (1).pdf"
   },
   {
     "content_type": "pyq",
