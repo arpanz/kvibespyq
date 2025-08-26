@@ -94,6 +94,16 @@
     "department": "CSE",
     "semester": "sem5",
     "subject": "DAA",
+    "year": "2024",
+    "exam_type": "mid",
+    "filename": "2024.pdf",
+    "url": "https://kvibespyq.netlify.app/pyq/CSE/sem5/DAA/MID/2024.pdf"
+  },
+  {
+    "content_type": "pyq",
+    "department": "CSE",
+    "semester": "sem5",
+    "subject": "DAA",
     "year": "2023",
     "exam_type": "end",
     "filename": "2023 Design and Analysis of Algorithms(CS 2012) END SEM.pdf",
