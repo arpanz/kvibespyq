@@ -375,6 +375,16 @@
     "semester": "sem5",
     "subject": "CN",
     "year": "2024",
+    "exam_type": "end",
+    "filename": "CN-Autumn-End Sem-2024-Regular.pdf",
+    "url": "https://kvibespyq.netlify.app/pyq/CSE/sem5/CN/end/CN-Autumn-End Sem-2024-Regular.pdf"
+  },
+  {
+    "content_type": "pyq",
+    "department": "CSE",
+    "semester": "sem5",
+    "subject": "CN",
+    "year": "2024",
     "exam_type": "mid",
     "filename": "2024 mid (1).pdf",
     "url": "https://kvibespyq.netlify.app/pyq/CSE/sem5/CN/mid/2024 mid (1).pdf"
@@ -385,9 +395,29 @@
     "semester": "sem5",
     "subject": "CN",
     "year": "2023",
+    "exam_type": "end",
+    "filename": "CN-Autumn-End Sem-2023-Regular.pdf",
+    "url": "https://kvibespyq.netlify.app/pyq/CSE/sem5/CN/end/CN-Autumn-End Sem-2023-Regular.pdf"
+  },
+  {
+    "content_type": "pyq",
+    "department": "CSE",
+    "semester": "sem5",
+    "subject": "CN",
+    "year": "2023",
     "exam_type": "mid",
     "filename": "2023 mid.pdf",
     "url": "https://kvibespyq.netlify.app/pyq/CSE/sem5/CN/mid/2023 mid.pdf"
+  },
+  {
+    "content_type": "pyq",
+    "department": "CSE",
+    "semester": "sem5",
+    "subject": "CN",
+    "year": "2022",
+    "exam_type": "end",
+    "filename": "CN-Autumn-End Sem-2022-Regular.pdf",
+    "url": "https://kvibespyq.netlify.app/pyq/CSE/sem5/CN/end/CN-Autumn-End Sem-2022-Regular.pdf"
   },
   {
     "content_type": "pyq",
@@ -415,9 +445,29 @@
     "semester": "sem5",
     "subject": "CN",
     "year": "2019",
+    "exam_type": "end",
+    "filename": "CN-Autumn-End Sem-2019-Regular.pdf",
+    "url": "https://kvibespyq.netlify.app/pyq/CSE/sem5/CN/end/CN-Autumn-End Sem-2019-Regular.pdf"
+  },
+  {
+    "content_type": "pyq",
+    "department": "CSE",
+    "semester": "sem5",
+    "subject": "CN",
+    "year": "2019",
     "exam_type": "mid",
     "filename": "2019 mid (1).pdf",
     "url": "https://kvibespyq.netlify.app/pyq/CSE/sem5/CN/mid/2019 mid (1).pdf"
+  },
+  {
+    "content_type": "pyq",
+    "department": "CSE",
+    "semester": "sem5",
+    "subject": "CN",
+    "year": "2018",
+    "exam_type": "end",
+    "filename": "CN-Autumn-End Sem-2018-Regular.pdf",
+    "url": "https://kvibespyq.netlify.app/pyq/CSE/sem5/CN/end/CN-Autumn-End Sem-2018-Regular.pdf"
   },
   {
     "content_type": "pyq",
