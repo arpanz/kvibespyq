@@ -155,6 +155,70 @@
     "content_type": "notes",
     "department": "CSE",
     "semester": "sem6",
+    "subject": "AI",
+    "filename": "AI modules complete.zip",
+    "url": "https://kvibespyq.netlify.app/notes/CSE/sem6/AI/AI modules complete.zip"
+  },
+  {
+    "content_type": "notes",
+    "department": "CSE",
+    "semester": "sem6",
+    "subject": "CC",
+    "filename": "Chapter_1_Introduction.pdf",
+    "url": "https://kvibespyq.netlify.app/notes/CSE/sem6/CC/Chapter_1_Introduction.pdf"
+  },
+  {
+    "content_type": "notes",
+    "department": "CSE",
+    "semester": "sem6",
+    "subject": "CC",
+    "filename": "Chapter_2_Evolution_and_Enabling_Technologies.pdf",
+    "url": "https://kvibespyq.netlify.app/notes/CSE/sem6/CC/Chapter_2_Evolution_and_Enabling_Technologies.pdf"
+  },
+  {
+    "content_type": "notes",
+    "department": "CSE",
+    "semester": "sem6",
+    "subject": "CC",
+    "filename": "Chapter_3_Benefits_and_Challenges.pdf",
+    "url": "https://kvibespyq.netlify.app/notes/CSE/sem6/CC/Chapter_3_Benefits_and_Challenges.pdf"
+  },
+  {
+    "content_type": "notes",
+    "department": "CSE",
+    "semester": "sem6",
+    "subject": "CC",
+    "filename": "Chapter_4-a_Cloud_Computing_Model.pdf",
+    "url": "https://kvibespyq.netlify.app/notes/CSE/sem6/CC/Chapter_4-a_Cloud_Computing_Model.pdf"
+  },
+  {
+    "content_type": "notes",
+    "department": "CSE",
+    "semester": "sem6",
+    "subject": "CC",
+    "filename": "Chapter_4-b_Cloud_Deployment_Model.pdf",
+    "url": "https://kvibespyq.netlify.app/notes/CSE/sem6/CC/Chapter_4-b_Cloud_Deployment_Model.pdf"
+  },
+  {
+    "content_type": "notes",
+    "department": "CSE",
+    "semester": "sem6",
+    "subject": "CC",
+    "filename": "Chapter_7_Resource_Virtualization.pdf",
+    "url": "https://kvibespyq.netlify.app/notes/CSE/sem6/CC/Chapter_7_Resource_Virtualization.pdf"
+  },
+  {
+    "content_type": "notes",
+    "department": "CSE",
+    "semester": "sem6",
+    "subject": "CC",
+    "filename": "Sandeep Bhowmik - Cloud Computing.pdf",
+    "url": "https://kvibespyq.netlify.app/notes/CSE/sem6/CC/Sandeep Bhowmik - Cloud Computing.pdf"
+  },
+  {
+    "content_type": "notes",
+    "department": "CSE",
+    "semester": "sem6",
     "subject": "ML",
     "filename": "1. Intro.pdf",
     "url": "https://kvibespyq.netlify.app/notes/CSE/sem6/ML/1. Intro.pdf"
@@ -278,5 +342,173 @@
     "subject": "ML",
     "filename": "9. Clustering.pdf",
     "url": "https://kvibespyq.netlify.app/notes/CSE/sem6/ML/9. Clustering.pdf"
+  },
+  {
+    "content_type": "notes",
+    "department": "CSE",
+    "semester": "sem6",
+    "subject": "NLP",
+    "filename": "0_NLP_ResearchPaper_sensors-21-03156-with-cover.pdf",
+    "url": "https://kvibespyq.netlify.app/notes/CSE/sem6/NLP/0_NLP_ResearchPaper_sensors-21-03156-with-cover.pdf"
+  },
+  {
+    "content_type": "notes",
+    "department": "CSE",
+    "semester": "sem6",
+    "subject": "NLP",
+    "filename": "0_Updated NLP Handout Lecture Plan Spring 25-26.pdf",
+    "url": "https://kvibespyq.netlify.app/notes/CSE/sem6/NLP/0_Updated NLP Handout Lecture Plan Spring 25-26.pdf"
+  },
+  {
+    "content_type": "notes",
+    "department": "CSE",
+    "semester": "sem6",
+    "subject": "NLP",
+    "filename": "10_Spelling_Correction.pdf",
+    "url": "https://kvibespyq.netlify.app/notes/CSE/sem6/NLP/10_Spelling_Correction.pdf"
+  },
+  {
+    "content_type": "notes",
+    "department": "CSE",
+    "semester": "sem6",
+    "subject": "NLP",
+    "filename": "11_12_NLP_CBOW_BOW.pdf",
+    "url": "https://kvibespyq.netlify.app/notes/CSE/sem6/NLP/11_12_NLP_CBOW_BOW.pdf"
+  },
+  {
+    "content_type": "notes",
+    "department": "CSE",
+    "semester": "sem6",
+    "subject": "NLP",
+    "filename": "12_TF-IDF.pdf",
+    "url": "https://kvibespyq.netlify.app/notes/CSE/sem6/NLP/12_TF-IDF.pdf"
+  },
+  {
+    "content_type": "notes",
+    "department": "CSE",
+    "semester": "sem6",
+    "subject": "NLP",
+    "filename": "14_15_Naive_Bayes_Classifier_Training_Updated.pdf",
+    "url": "https://kvibespyq.netlify.app/notes/CSE/sem6/NLP/14_15_Naive_Bayes_Classifier_Training_Updated.pdf"
+  },
+  {
+    "content_type": "notes",
+    "department": "CSE",
+    "semester": "sem6",
+    "subject": "NLP",
+    "filename": "17_18__Classifier_Evaluation.pdf",
+    "url": "https://kvibespyq.netlify.app/notes/CSE/sem6/NLP/17_18__Classifier_Evaluation.pdf"
+  },
+  {
+    "content_type": "notes",
+    "department": "CSE",
+    "semester": "sem6",
+    "subject": "NLP",
+    "filename": "1_Intro_to_NLP.pdf",
+    "url": "https://kvibespyq.netlify.app/notes/CSE/sem6/NLP/1_Intro_to_NLP.pdf"
+  },
+  {
+    "content_type": "notes",
+    "department": "CSE",
+    "semester": "sem6",
+    "subject": "NLP",
+    "filename": "2_NLP_Phases_Pipeline.pdf",
+    "url": "https://kvibespyq.netlify.app/notes/CSE/sem6/NLP/2_NLP_Phases_Pipeline.pdf"
+  },
+  {
+    "content_type": "notes",
+    "department": "CSE",
+    "semester": "sem6",
+    "subject": "NLP",
+    "filename": "3.1_Types_of_Ambiguity_in_NLP.pdf",
+    "url": "https://kvibespyq.netlify.app/notes/CSE/sem6/NLP/3.1_Types_of_Ambiguity_in_NLP.pdf"
+  },
+  {
+    "content_type": "notes",
+    "department": "CSE",
+    "semester": "sem6",
+    "subject": "NLP",
+    "filename": "3_Why_Is_NLP_Hard.pdf",
+    "url": "https://kvibespyq.netlify.app/notes/CSE/sem6/NLP/3_Why_Is_NLP_Hard.pdf"
+  },
+  {
+    "content_type": "notes",
+    "department": "CSE",
+    "semester": "sem6",
+    "subject": "NLP",
+    "filename": "4_Zipf_Heaps_Laws.pdf",
+    "url": "https://kvibespyq.netlify.app/notes/CSE/sem6/NLP/4_Zipf_Heaps_Laws.pdf"
+  },
+  {
+    "content_type": "notes",
+    "department": "CSE",
+    "semester": "sem6",
+    "subject": "NLP",
+    "filename": "5.1_Regex_Types_With_Examples_NLP.pdf",
+    "url": "https://kvibespyq.netlify.app/notes/CSE/sem6/NLP/5.1_Regex_Types_With_Examples_NLP.pdf"
+  },
+  {
+    "content_type": "notes",
+    "department": "CSE",
+    "semester": "sem6",
+    "subject": "NLP",
+    "filename": "5_Text_Processing_Normalization_Cleaning.pdf",
+    "url": "https://kvibespyq.netlify.app/notes/CSE/sem6/NLP/5_Text_Processing_Normalization_Cleaning.pdf"
+  },
+  {
+    "content_type": "notes",
+    "department": "CSE",
+    "semester": "sem6",
+    "subject": "NLP",
+    "filename": "6_Morphology_Stemming_Lemmatization.pdf",
+    "url": "https://kvibespyq.netlify.app/notes/CSE/sem6/NLP/6_Morphology_Stemming_Lemmatization.pdf"
+  },
+  {
+    "content_type": "notes",
+    "department": "CSE",
+    "semester": "sem6",
+    "subject": "NLP",
+    "filename": "7.1_BPE_WordPiece_Numerical.pdf",
+    "url": "https://kvibespyq.netlify.app/notes/CSE/sem6/NLP/7.1_BPE_WordPiece_Numerical.pdf"
+  },
+  {
+    "content_type": "notes",
+    "department": "CSE",
+    "semester": "sem6",
+    "subject": "NLP",
+    "filename": "7_Tokenization_SubWord.pdf",
+    "url": "https://kvibespyq.netlify.app/notes/CSE/sem6/NLP/7_Tokenization_SubWord.pdf"
+  },
+  {
+    "content_type": "notes",
+    "department": "CSE",
+    "semester": "sem6",
+    "subject": "NLP",
+    "filename": "8_Sequence_Labeling_POS_Tagging.pdf",
+    "url": "https://kvibespyq.netlify.app/notes/CSE/sem6/NLP/8_Sequence_Labeling_POS_Tagging.pdf"
+  },
+  {
+    "content_type": "notes",
+    "department": "CSE",
+    "semester": "sem6",
+    "subject": "NLP",
+    "filename": "9_Language_Models.pdf",
+    "url": "https://kvibespyq.netlify.app/notes/CSE/sem6/NLP/9_Language_Models.pdf"
+  },
+  {
+    "content_type": "notes",
+    "department": "CSE",
+    "semester": "sem6",
+    "subject": "NLP",
+    "filename": "Book1_Jurafsky, Martin.-Speech and Language Processing_ An Introduction to Natural Language Processing (2007).pdf",
+    "url": "https://kvibespyq.netlify.app/notes/CSE/sem6/NLP/Book1_Jurafsky, Martin.-Speech and Language Processing_ An Introduction to Natural Language Processing (2007).pdf"
+  },
+  {
+    "content_type": "notes",
+    "department": "CSE",
+    "semester": "sem6",
+    "subject": "NLP",
+    "filename": "Book2_Christopher_D._Manning_Hinrich_Sch\u00fctze_Foundations_Of_Statistical_Natural_Language_Processing.pdf",
+    "url": "https://kvibespyq.netlify.app/notes/CSE/sem6/NLP/Book2_Christopher_D._Manning_Hinrich_Sch\u00fctze_Foundations_Of_Statistical_Natural_Language_Processing.pdf"
   }
 ]
