@@ -613,6 +613,56 @@
     "content_type": "pyq",
     "department": "CSE",
     "semester": "sem4",
+    "subject": "OS",
+    "year": "2024",
+    "exam_type": "end",
+    "filename": "os endsem papers till 2024.pdf",
+    "url": "https://kvibespyq.netlify.app/pyq/CSE/sem4/OS/end/os endsem papers till 2024.pdf"
+  },
+  {
+    "content_type": "pyq",
+    "department": "CSE",
+    "semester": "sem4",
+    "subject": "OS",
+    "year": "2024",
+    "exam_type": "mid",
+    "filename": "2024_midsem.pdf",
+    "url": "https://kvibespyq.netlify.app/pyq/CSE/sem4/OS/mid/2024_midsem.pdf"
+  },
+  {
+    "content_type": "pyq",
+    "department": "CSE",
+    "semester": "sem4",
+    "subject": "OS",
+    "year": "2024",
+    "exam_type": "mid",
+    "filename": "Operating System Mid 2024.pdf",
+    "url": "https://kvibespyq.netlify.app/pyq/CSE/sem4/OS/mid/Operating System Mid 2024.pdf"
+  },
+  {
+    "content_type": "pyq",
+    "department": "CSE",
+    "semester": "sem4",
+    "subject": "OS",
+    "year": "2023",
+    "exam_type": "mid",
+    "filename": "2023_midsem.pdf",
+    "url": "https://kvibespyq.netlify.app/pyq/CSE/sem4/OS/mid/2023_midsem.pdf"
+  },
+  {
+    "content_type": "pyq",
+    "department": "CSE",
+    "semester": "sem4",
+    "subject": "OS",
+    "year": "2023",
+    "exam_type": "mid",
+    "filename": "os 2023 mid.PDF",
+    "url": "https://kvibespyq.netlify.app/pyq/CSE/sem4/OS/mid/os 2023 mid.PDF"
+  },
+  {
+    "content_type": "pyq",
+    "department": "CSE",
+    "semester": "sem4",
     "subject": "OOPJ",
     "year": "2025",
     "exam_type": "mid",
