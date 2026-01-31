@@ -943,6 +943,46 @@
     "content_type": "pyq",
     "department": "CSE",
     "semester": "sem4",
+    "subject": "DM",
+    "year": "2024",
+    "exam_type": "mid",
+    "filename": "dm mid 2024(2).pdf",
+    "url": "https://kvibespyq.netlify.app/pyq/CSE/sem4/DM/mid/dm mid 2024(2).pdf"
+  },
+  {
+    "content_type": "pyq",
+    "department": "CSE",
+    "semester": "sem4",
+    "subject": "DM",
+    "year": "2024",
+    "exam_type": "mid",
+    "filename": "dm mid 2024.pdf",
+    "url": "https://kvibespyq.netlify.app/pyq/CSE/sem4/DM/mid/dm mid 2024.pdf"
+  },
+  {
+    "content_type": "pyq",
+    "department": "CSE",
+    "semester": "sem4",
+    "subject": "DM",
+    "year": "2022",
+    "exam_type": "mid",
+    "filename": "dm mid 2022.pdf",
+    "url": "https://kvibespyq.netlify.app/pyq/CSE/sem4/DM/mid/dm mid 2022.pdf"
+  },
+  {
+    "content_type": "pyq",
+    "department": "CSE",
+    "semester": "sem4",
+    "subject": "DM",
+    "year": "2022",
+    "exam_type": "mid",
+    "filename": "DMS(Mid Sem Set2 2022 2.pdf",
+    "url": "https://kvibespyq.netlify.app/pyq/CSE/sem4/DM/mid/DMS(Mid Sem Set2 2022 2.pdf"
+  },
+  {
+    "content_type": "pyq",
+    "department": "CSE",
+    "semester": "sem4",
     "subject": "DBMS",
     "year": "2025",
     "exam_type": "mid",
