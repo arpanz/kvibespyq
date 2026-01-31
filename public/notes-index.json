@@ -355,6 +355,14 @@
     "content_type": "notes",
     "department": "CSE",
     "semester": "sem6",
+    "subject": "ML",
+    "filename": "ML Compelte Handwritten.pdf",
+    "url": "https://kvibespyq.netlify.app/notes/CSE/sem6/ML/ML Compelte Handwritten.pdf"
+  },
+  {
+    "content_type": "notes",
+    "department": "CSE",
+    "semester": "sem6",
     "subject": "NLP",
     "filename": "0_NLP_ResearchPaper_sensors-21-03156-with-cover.pdf",
     "url": "https://kvibespyq.netlify.app/notes/CSE/sem6/NLP/0_NLP_ResearchPaper_sensors-21-03156-with-cover.pdf"
