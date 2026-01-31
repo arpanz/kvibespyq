@@ -3,6 +3,36 @@
     "content_type": "pyq",
     "department": "CSE",
     "semester": "sem6",
+    "subject": "NLP",
+    "year": "2024",
+    "exam_type": "mid",
+    "filename": "2024_9.pdf",
+    "url": "https://kvibespyq.netlify.app/pyq/CSE/sem6/NLP/mid/2024_9.pdf"
+  },
+  {
+    "content_type": "pyq",
+    "department": "CSE",
+    "semester": "sem6",
+    "subject": "NLP",
+    "year": "2023",
+    "exam_type": "mid",
+    "filename": "2023_5.pdf",
+    "url": "https://kvibespyq.netlify.app/pyq/CSE/sem6/NLP/mid/2023_5.pdf"
+  },
+  {
+    "content_type": "pyq",
+    "department": "CSE",
+    "semester": "sem6",
+    "subject": "NLP",
+    "year": "2022",
+    "exam_type": "mid",
+    "filename": "2022_6.pdf",
+    "url": "https://kvibespyq.netlify.app/pyq/CSE/sem6/NLP/mid/2022_6.pdf"
+  },
+  {
+    "content_type": "pyq",
+    "department": "CSE",
+    "semester": "sem6",
     "subject": "ML",
     "year": "2024",
     "exam_type": "mid",
