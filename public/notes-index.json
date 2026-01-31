@@ -356,8 +356,8 @@
     "department": "CSE",
     "semester": "sem6",
     "subject": "ML",
-    "filename": "ML Compelte Handwritten.pdf",
-    "url": "https://kvibespyq.netlify.app/notes/CSE/sem6/ML/ML Compelte Handwritten.pdf"
+    "filename": "ML Complete Handwritten midsem.pdf",
+    "url": "https://kvibespyq.netlify.app/notes/CSE/sem6/ML/ML Complete Handwritten midsem.pdf"
   },
   {
     "content_type": "notes",
@@ -526,5 +526,53 @@
     "subject": "NLP",
     "filename": "Book2_Christopher_D._Manning_Hinrich_Sch\u00fctze_Foundations_Of_Statistical_Natural_Language_Processing.pdf",
     "url": "https://kvibespyq.netlify.app/notes/CSE/sem6/NLP/Book2_Christopher_D._Manning_Hinrich_Sch\u00fctze_Foundations_Of_Statistical_Natural_Language_Processing.pdf"
+  },
+  {
+    "content_type": "notes",
+    "department": "CSE",
+    "semester": "sem6",
+    "subject": "UHV",
+    "filename": "Unit-1 Introduction to Value Education.ppt.pdf",
+    "url": "https://kvibespyq.netlify.app/notes/CSE/sem6/UHV/Unit-1 Introduction to Value Education.ppt.pdf"
+  },
+  {
+    "content_type": "notes",
+    "department": "CSE",
+    "semester": "sem6",
+    "subject": "UHV",
+    "filename": "Unit-2 Understanding HB.ppt.pdf",
+    "url": "https://kvibespyq.netlify.app/notes/CSE/sem6/UHV/Unit-2 Understanding HB.ppt.pdf"
+  },
+  {
+    "content_type": "notes",
+    "department": "CSE",
+    "semester": "sem6",
+    "subject": "UHV",
+    "filename": "Unit-3A Harmony in the Family.ppt.pdf",
+    "url": "https://kvibespyq.netlify.app/notes/CSE/sem6/UHV/Unit-3A Harmony in the Family.ppt.pdf"
+  },
+  {
+    "content_type": "notes",
+    "department": "CSE",
+    "semester": "sem6",
+    "subject": "UHV",
+    "filename": "Unit-3B Understanding Harmony in the Society.ppt.pdf",
+    "url": "https://kvibespyq.netlify.app/notes/CSE/sem6/UHV/Unit-3B Understanding Harmony in the Society.ppt.pdf"
+  },
+  {
+    "content_type": "notes",
+    "department": "CSE",
+    "semester": "sem6",
+    "subject": "UHV",
+    "filename": "Unit-4 Harmony in  Nature-Existence.ppt.pdf",
+    "url": "https://kvibespyq.netlify.app/notes/CSE/sem6/UHV/Unit-4 Harmony in  Nature-Existence.ppt.pdf"
+  },
+  {
+    "content_type": "notes",
+    "department": "CSE",
+    "semester": "sem6",
+    "subject": "UHV",
+    "filename": "Unit-V.ppt.pdf",
+    "url": "https://kvibespyq.netlify.app/notes/CSE/sem6/UHV/Unit-V.ppt.pdf"
   }
 ]
