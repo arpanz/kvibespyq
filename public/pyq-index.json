@@ -2,6 +2,136 @@
   {
     "content_type": "pyq",
     "department": "CSE",
+    "semester": "sem6",
+    "subject": "ML",
+    "year": "2024",
+    "exam_type": "mid",
+    "filename": "2024_01_2.pdf",
+    "url": "https://kvibespyq.netlify.app/pyq/CSE/sem6/ML/mid/2024_01_2.pdf"
+  },
+  {
+    "content_type": "pyq",
+    "department": "CSE",
+    "semester": "sem6",
+    "subject": "ML",
+    "year": "2024",
+    "exam_type": "mid",
+    "filename": "2024_02_2.pdf",
+    "url": "https://kvibespyq.netlify.app/pyq/CSE/sem6/ML/mid/2024_02_2.pdf"
+  },
+  {
+    "content_type": "pyq",
+    "department": "CSE",
+    "semester": "sem6",
+    "subject": "ML",
+    "year": "2023",
+    "exam_type": "mid",
+    "filename": "2023_01_2.pdf",
+    "url": "https://kvibespyq.netlify.app/pyq/CSE/sem6/ML/mid/2023_01_2.pdf"
+  },
+  {
+    "content_type": "pyq",
+    "department": "CSE",
+    "semester": "sem6",
+    "subject": "ML",
+    "year": "2023",
+    "exam_type": "mid",
+    "filename": "2023_02_2.pdf",
+    "url": "https://kvibespyq.netlify.app/pyq/CSE/sem6/ML/mid/2023_02_2.pdf"
+  },
+  {
+    "content_type": "pyq",
+    "department": "CSE",
+    "semester": "sem6",
+    "subject": "ML",
+    "year": "2022",
+    "exam_type": "mid",
+    "filename": "2022_5.pdf",
+    "url": "https://kvibespyq.netlify.app/pyq/CSE/sem6/ML/mid/2022_5.pdf"
+  },
+  {
+    "content_type": "pyq",
+    "department": "CSE",
+    "semester": "sem6",
+    "subject": "AI",
+    "year": "3011",
+    "exam_type": "mid",
+    "filename": "AI CS3011 5th Sem Repeat Mid-term Solution Scheme Autumn 2023.pdf",
+    "url": "https://kvibespyq.netlify.app/pyq/CSE/sem6/AI/mid/AI CS3011 5th Sem Repeat Mid-term Solution Scheme Autumn 2023.pdf"
+  },
+  {
+    "content_type": "pyq",
+    "department": "CSE",
+    "semester": "sem6",
+    "subject": "AI",
+    "year": "3011",
+    "exam_type": "mid",
+    "filename": "AI CS3011 Mid-semester  Evaluation Scheme 2023.pdf",
+    "url": "https://kvibespyq.netlify.app/pyq/CSE/sem6/AI/mid/AI CS3011 Mid-semester  Evaluation Scheme 2023.pdf"
+  },
+  {
+    "content_type": "pyq",
+    "department": "CSE",
+    "semester": "sem6",
+    "subject": "AI",
+    "year": "2025",
+    "exam_type": "mid",
+    "filename": "AI_Mid_Sem_2025.pdf",
+    "url": "https://kvibespyq.netlify.app/pyq/CSE/sem6/AI/mid/AI_Mid_Sem_2025.pdf"
+  },
+  {
+    "content_type": "pyq",
+    "department": "CSE",
+    "semester": "sem6",
+    "subject": "AI",
+    "year": "2023",
+    "exam_type": "mid",
+    "filename": "AI Make-up Mid sem Exam 2023 (Spring).pdf",
+    "url": "https://kvibespyq.netlify.app/pyq/CSE/sem6/AI/mid/AI Make-up Mid sem Exam 2023 (Spring).pdf"
+  },
+  {
+    "content_type": "pyq",
+    "department": "CSE",
+    "semester": "sem6",
+    "subject": "AI",
+    "year": "2023",
+    "exam_type": "mid",
+    "filename": "AI Mid sem 2023 (Spring).pdf",
+    "url": "https://kvibespyq.netlify.app/pyq/CSE/sem6/AI/mid/AI Mid sem 2023 (Spring).pdf"
+  },
+  {
+    "content_type": "pyq",
+    "department": "CSE",
+    "semester": "sem6",
+    "subject": "AI",
+    "year": "2022",
+    "exam_type": "mid",
+    "filename": "AI Make-up Mid sem Exam 2022 (Autumn).pdf",
+    "url": "https://kvibespyq.netlify.app/pyq/CSE/sem6/AI/mid/AI Make-up Mid sem Exam 2022 (Autumn).pdf"
+  },
+  {
+    "content_type": "pyq",
+    "department": "CSE",
+    "semester": "sem6",
+    "subject": "AI",
+    "year": "2022",
+    "exam_type": "mid",
+    "filename": "AI Mid sem 2022 (Autumn).pdf",
+    "url": "https://kvibespyq.netlify.app/pyq/CSE/sem6/AI/mid/AI Mid sem 2022 (Autumn).pdf"
+  },
+  {
+    "content_type": "pyq",
+    "department": "CSE",
+    "semester": "sem6",
+    "subject": "AI",
+    "year": "2021",
+    "exam_type": "mid",
+    "filename": "AI Mid sem 2021 (Spring).pdf",
+    "url": "https://kvibespyq.netlify.app/pyq/CSE/sem6/AI/mid/AI Mid sem 2021 (Spring).pdf"
+  },
+  {
+    "content_type": "pyq",
+    "department": "CSE",
     "semester": "sem5",
     "subject": "SE",
     "year": "2024",
