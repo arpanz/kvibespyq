@@ -24,6 +24,15 @@ YEAR_RE = re.compile(r"(?<!\d)\d{4}(?!\d)") # exactly 4 successive digits
 # -------------------------------------------------------------------------
 
 
+def format_file_size(size_bytes: int) -> str:
+    """Convert bytes to human-readable format (KB, MB, GB)"""
+    for unit in ['B', 'KB', 'MB', 'GB']:
+        if size_bytes < 1024.0:
+            return f"{size_bytes:.1f} {unit}"
+        size_bytes /= 1024.0
+    return f"{size_bytes:.1f} TB"
+
+
 # ═════════════════════════════════════════════════════════════════════════
 #                           PYQ  •  INDEX
 # ═════════════════════════════════════════════════════════════════════════
@@ -57,6 +66,9 @@ def generate_pyq_index() -> None:
             print(f"SKIP unknown exam-type folder: {pdf_path}")
             continue
 
+        # Get file size
+        file_size_bytes = pdf_path.stat().st_size
+        
         entries.append(
             {
                 "content_type": "pyq",
@@ -67,6 +79,8 @@ def generate_pyq_index() -> None:
                 "exam_type": exam_lc,
                 "filename": filename,
                 "url": f"{BASE_URL}/{'/'.join(parts)}",
+                "file_size_bytes": file_size_bytes,
+                "file_size": format_file_size(file_size_bytes),
             }
         )
 
@@ -151,6 +165,10 @@ def generate_notes_index() -> None:
             continue
 
         _, dept, sem, subj, filename = parts
+        
+        # Get file size
+        file_size_bytes = file_path.stat().st_size
+        
         entries.append(
             {
                 "content_type": "notes",
@@ -159,6 +177,8 @@ def generate_notes_index() -> None:
                 "subject": subj.replace("-", " ").title().upper(),
                 "filename": filename,
                 "url": f"{BASE_URL}/{'/'.join(parts)}",
+                "file_size_bytes": file_size_bytes,
+                "file_size": format_file_size(file_size_bytes),
             }
         )
 
