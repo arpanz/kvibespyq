@@ -53,11 +53,341 @@
     "content_type": "notes",
     "department": "CSE",
     "semester": "sem4",
+    "subject": "DBMS",
+    "filename": "DBMS-1.pdf",
+    "url": "https://kvibespyq.netlify.app/notes/CSE/sem4/dbms/DBMS-1.pdf",
+    "file_size_bytes": 164113,
+    "file_size": "160.3 KB"
+  },
+  {
+    "content_type": "notes",
+    "department": "CSE",
+    "semester": "sem4",
+    "subject": "DBMS",
+    "filename": "DBMS-10.pdf",
+    "url": "https://kvibespyq.netlify.app/notes/CSE/sem4/dbms/DBMS-10.pdf",
+    "file_size_bytes": 485523,
+    "file_size": "474.1 KB"
+  },
+  {
+    "content_type": "notes",
+    "department": "CSE",
+    "semester": "sem4",
+    "subject": "DBMS",
+    "filename": "DBMS-11.pdf",
+    "url": "https://kvibespyq.netlify.app/notes/CSE/sem4/dbms/DBMS-11.pdf",
+    "file_size_bytes": 252772,
+    "file_size": "246.8 KB"
+  },
+  {
+    "content_type": "notes",
+    "department": "CSE",
+    "semester": "sem4",
+    "subject": "DBMS",
+    "filename": "DBMS-12.pdf",
+    "url": "https://kvibespyq.netlify.app/notes/CSE/sem4/dbms/DBMS-12.pdf",
+    "file_size_bytes": 199046,
+    "file_size": "194.4 KB"
+  },
+  {
+    "content_type": "notes",
+    "department": "CSE",
+    "semester": "sem4",
+    "subject": "DBMS",
+    "filename": "DBMS-13.pdf",
+    "url": "https://kvibespyq.netlify.app/notes/CSE/sem4/dbms/DBMS-13.pdf",
+    "file_size_bytes": 108677,
+    "file_size": "106.1 KB"
+  },
+  {
+    "content_type": "notes",
+    "department": "CSE",
+    "semester": "sem4",
+    "subject": "DBMS",
+    "filename": "DBMS-14.pdf",
+    "url": "https://kvibespyq.netlify.app/notes/CSE/sem4/dbms/DBMS-14.pdf",
+    "file_size_bytes": 166373,
+    "file_size": "162.5 KB"
+  },
+  {
+    "content_type": "notes",
+    "department": "CSE",
+    "semester": "sem4",
+    "subject": "DBMS",
+    "filename": "DBMS-2.pdf",
+    "url": "https://kvibespyq.netlify.app/notes/CSE/sem4/dbms/DBMS-2.pdf",
+    "file_size_bytes": 462157,
+    "file_size": "451.3 KB"
+  },
+  {
+    "content_type": "notes",
+    "department": "CSE",
+    "semester": "sem4",
+    "subject": "DBMS",
+    "filename": "DBMS-3.pdf",
+    "url": "https://kvibespyq.netlify.app/notes/CSE/sem4/dbms/DBMS-3.pdf",
+    "file_size_bytes": 150586,
+    "file_size": "147.1 KB"
+  },
+  {
+    "content_type": "notes",
+    "department": "CSE",
+    "semester": "sem4",
+    "subject": "DBMS",
+    "filename": "DBMS-4.pdf",
+    "url": "https://kvibespyq.netlify.app/notes/CSE/sem4/dbms/DBMS-4.pdf",
+    "file_size_bytes": 289859,
+    "file_size": "283.1 KB"
+  },
+  {
+    "content_type": "notes",
+    "department": "CSE",
+    "semester": "sem4",
+    "subject": "DBMS",
+    "filename": "DBMS-5.pdf",
+    "url": "https://kvibespyq.netlify.app/notes/CSE/sem4/dbms/DBMS-5.pdf",
+    "file_size_bytes": 813498,
+    "file_size": "794.4 KB"
+  },
+  {
+    "content_type": "notes",
+    "department": "CSE",
+    "semester": "sem4",
+    "subject": "DBMS",
+    "filename": "DBMS-6.pdf",
+    "url": "https://kvibespyq.netlify.app/notes/CSE/sem4/dbms/DBMS-6.pdf",
+    "file_size_bytes": 738891,
+    "file_size": "721.6 KB"
+  },
+  {
+    "content_type": "notes",
+    "department": "CSE",
+    "semester": "sem4",
+    "subject": "DBMS",
+    "filename": "DBMS-7.pdf",
+    "url": "https://kvibespyq.netlify.app/notes/CSE/sem4/dbms/DBMS-7.pdf",
+    "file_size_bytes": 302560,
+    "file_size": "295.5 KB"
+  },
+  {
+    "content_type": "notes",
+    "department": "CSE",
+    "semester": "sem4",
+    "subject": "DBMS",
+    "filename": "DBMS-8.pdf",
+    "url": "https://kvibespyq.netlify.app/notes/CSE/sem4/dbms/DBMS-8.pdf",
+    "file_size_bytes": 474441,
+    "file_size": "463.3 KB"
+  },
+  {
+    "content_type": "notes",
+    "department": "CSE",
+    "semester": "sem4",
+    "subject": "DBMS",
+    "filename": "DBMS-9.pdf",
+    "url": "https://kvibespyq.netlify.app/notes/CSE/sem4/dbms/DBMS-9.pdf",
+    "file_size_bytes": 72205,
+    "file_size": "70.5 KB"
+  },
+  {
+    "content_type": "notes",
+    "department": "CSE",
+    "semester": "sem4",
     "subject": "DS (DISCRETE)",
     "filename": "Discrete_Mathematics Note.pdf",
     "url": "https://kvibespyq.netlify.app/notes/CSE/sem4/ds-(discrete)/Discrete_Mathematics Note.pdf",
     "file_size_bytes": 2381292,
     "file_size": "2.3 MB"
+  },
+  {
+    "content_type": "notes",
+    "department": "CSE",
+    "semester": "sem4",
+    "subject": "IEC",
+    "filename": "Comparative Advantage Theory.pdf",
+    "url": "https://kvibespyq.netlify.app/notes/CSE/sem4/IEC/Comparative Advantage Theory.pdf",
+    "file_size_bytes": 1107280,
+    "file_size": "1.1 MB"
+  },
+  {
+    "content_type": "notes",
+    "department": "CSE",
+    "semester": "sem4",
+    "subject": "IEC",
+    "filename": "Factors affecting ToT.pdf",
+    "url": "https://kvibespyq.netlify.app/notes/CSE/sem4/IEC/Factors affecting ToT.pdf",
+    "file_size_bytes": 364476,
+    "file_size": "355.9 KB"
+  },
+  {
+    "content_type": "notes",
+    "department": "CSE",
+    "semester": "sem4",
+    "subject": "IEC",
+    "filename": "L1_IOC - Copy.pdf",
+    "url": "https://kvibespyq.netlify.app/notes/CSE/sem4/IEC/L1_IOC - Copy.pdf",
+    "file_size_bytes": 470897,
+    "file_size": "459.9 KB"
+  },
+  {
+    "content_type": "notes",
+    "department": "CSE",
+    "semester": "sem4",
+    "subject": "IEC",
+    "filename": "L2_IEC.pdf",
+    "url": "https://kvibespyq.netlify.app/notes/CSE/sem4/IEC/L2_IEC.pdf",
+    "file_size_bytes": 916436,
+    "file_size": "895.0 KB"
+  },
+  {
+    "content_type": "notes",
+    "department": "CSE",
+    "semester": "sem4",
+    "subject": "IEC",
+    "filename": "L3_IEC.pdf",
+    "url": "https://kvibespyq.netlify.app/notes/CSE/sem4/IEC/L3_IEC.pdf",
+    "file_size_bytes": 457528,
+    "file_size": "446.8 KB"
+  },
+  {
+    "content_type": "notes",
+    "department": "CSE",
+    "semester": "sem4",
+    "subject": "IEC",
+    "filename": "L4_IEC.pdf",
+    "url": "https://kvibespyq.netlify.app/notes/CSE/sem4/IEC/L4_IEC.pdf",
+    "file_size_bytes": 341884,
+    "file_size": "333.9 KB"
+  },
+  {
+    "content_type": "notes",
+    "department": "CSE",
+    "semester": "sem4",
+    "subject": "IEC",
+    "filename": "L5_IEC.pdf",
+    "url": "https://kvibespyq.netlify.app/notes/CSE/sem4/IEC/L5_IEC.pdf",
+    "file_size_bytes": 491906,
+    "file_size": "480.4 KB"
+  },
+  {
+    "content_type": "notes",
+    "department": "CSE",
+    "semester": "sem4",
+    "subject": "IEC",
+    "filename": "L6_IEC.pdf",
+    "url": "https://kvibespyq.netlify.app/notes/CSE/sem4/IEC/L6_IEC.pdf",
+    "file_size_bytes": 254397,
+    "file_size": "248.4 KB"
+  },
+  {
+    "content_type": "notes",
+    "department": "CSE",
+    "semester": "sem4",
+    "subject": "IEC",
+    "filename": "L7_IEC.pdf",
+    "url": "https://kvibespyq.netlify.app/notes/CSE/sem4/IEC/L7_IEC.pdf",
+    "file_size_bytes": 852974,
+    "file_size": "833.0 KB"
+  },
+  {
+    "content_type": "notes",
+    "department": "CSE",
+    "semester": "sem4",
+    "subject": "IEC",
+    "filename": "L8_IEC.pdf",
+    "url": "https://kvibespyq.netlify.app/notes/CSE/sem4/IEC/L8_IEC.pdf",
+    "file_size_bytes": 1512409,
+    "file_size": "1.4 MB"
+  },
+  {
+    "content_type": "notes",
+    "department": "CSE",
+    "semester": "sem4",
+    "subject": "IEC",
+    "filename": "TRADE CREATION and DIVERSION.pdf",
+    "url": "https://kvibespyq.netlify.app/notes/CSE/sem4/IEC/TRADE CREATION and DIVERSION.pdf",
+    "file_size_bytes": 328825,
+    "file_size": "321.1 KB"
+  },
+  {
+    "content_type": "notes",
+    "department": "CSE",
+    "semester": "sem4",
+    "subject": "OOPJ",
+    "filename": "OOPJ 1.pdf",
+    "url": "https://kvibespyq.netlify.app/notes/CSE/sem4/OOPJ/OOPJ 1.pdf",
+    "file_size_bytes": 237452,
+    "file_size": "231.9 KB"
+  },
+  {
+    "content_type": "notes",
+    "department": "CSE",
+    "semester": "sem4",
+    "subject": "OOPJ",
+    "filename": "OOPJ 2.pdf",
+    "url": "https://kvibespyq.netlify.app/notes/CSE/sem4/OOPJ/OOPJ 2.pdf",
+    "file_size_bytes": 526969,
+    "file_size": "514.6 KB"
+  },
+  {
+    "content_type": "notes",
+    "department": "CSE",
+    "semester": "sem4",
+    "subject": "OOPJ",
+    "filename": "OOPJ 3.pdf",
+    "url": "https://kvibespyq.netlify.app/notes/CSE/sem4/OOPJ/OOPJ 3.pdf",
+    "file_size_bytes": 385917,
+    "file_size": "376.9 KB"
+  },
+  {
+    "content_type": "notes",
+    "department": "CSE",
+    "semester": "sem4",
+    "subject": "OOPJ",
+    "filename": "OOPJ 4.pdf",
+    "url": "https://kvibespyq.netlify.app/notes/CSE/sem4/OOPJ/OOPJ 4.pdf",
+    "file_size_bytes": 431116,
+    "file_size": "421.0 KB"
+  },
+  {
+    "content_type": "notes",
+    "department": "CSE",
+    "semester": "sem4",
+    "subject": "OOPJ",
+    "filename": "OOPJ 5.pdf",
+    "url": "https://kvibespyq.netlify.app/notes/CSE/sem4/OOPJ/OOPJ 5.pdf",
+    "file_size_bytes": 167467,
+    "file_size": "163.5 KB"
+  },
+  {
+    "content_type": "notes",
+    "department": "CSE",
+    "semester": "sem4",
+    "subject": "OOPJ",
+    "filename": "OOPJ 6.pdf",
+    "url": "https://kvibespyq.netlify.app/notes/CSE/sem4/OOPJ/OOPJ 6.pdf",
+    "file_size_bytes": 300080,
+    "file_size": "293.0 KB"
+  },
+  {
+    "content_type": "notes",
+    "department": "CSE",
+    "semester": "sem4",
+    "subject": "OOPJ",
+    "filename": "OOPJ 7.pdf",
+    "url": "https://kvibespyq.netlify.app/notes/CSE/sem4/OOPJ/OOPJ 7.pdf",
+    "file_size_bytes": 896515,
+    "file_size": "875.5 KB"
+  },
+  {
+    "content_type": "notes",
+    "department": "CSE",
+    "semester": "sem4",
+    "subject": "OOPJ",
+    "filename": "OOPJ 8.pdf",
+    "url": "https://kvibespyq.netlify.app/notes/CSE/sem4/OOPJ/OOPJ 8.pdf",
+    "file_size_bytes": 560908,
+    "file_size": "547.8 KB"
   },
   {
     "content_type": "notes",
