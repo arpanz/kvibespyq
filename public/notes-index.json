@@ -3,6 +3,106 @@
     "content_type": "notes",
     "department": "CSE",
     "semester": "sem3",
+    "subject": "AFL",
+    "filename": "Ambiguous to Unambiguous Grammar (Examples).pdf",
+    "url": "https://kvibespyq.netlify.app/notes/CSE/sem3/AFL/Ambiguous to Unambiguous Grammar (Examples).pdf",
+    "file_size_bytes": 511616,
+    "file_size": "499.6 KB"
+  },
+  {
+    "content_type": "notes",
+    "department": "CSE",
+    "semester": "sem3",
+    "subject": "AFL",
+    "filename": "CFG and LMD_RMD.pdf",
+    "url": "https://kvibespyq.netlify.app/notes/CSE/sem3/AFL/CFG and LMD_RMD.pdf",
+    "file_size_bytes": 263858,
+    "file_size": "257.7 KB"
+  },
+  {
+    "content_type": "notes",
+    "department": "CSE",
+    "semester": "sem3",
+    "subject": "AFL",
+    "filename": "EXAMPLES_CNF_GNF.pdf",
+    "url": "https://kvibespyq.netlify.app/notes/CSE/sem3/AFL/EXAMPLES_CNF_GNF.pdf",
+    "file_size_bytes": 206647,
+    "file_size": "201.8 KB"
+  },
+  {
+    "content_type": "notes",
+    "department": "CSE",
+    "semester": "sem3",
+    "subject": "AFL",
+    "filename": "Greibach Normal Form(GNF).pdf",
+    "url": "https://kvibespyq.netlify.app/notes/CSE/sem3/AFL/Greibach Normal Form(GNF).pdf",
+    "file_size_bytes": 108561,
+    "file_size": "106.0 KB"
+  },
+  {
+    "content_type": "notes",
+    "department": "CSE",
+    "semester": "sem3",
+    "subject": "AFL",
+    "filename": "NOTE_CNF.pdf",
+    "url": "https://kvibespyq.netlify.app/notes/CSE/sem3/AFL/NOTE_CNF.pdf",
+    "file_size_bytes": 39716,
+    "file_size": "38.8 KB"
+  },
+  {
+    "content_type": "notes",
+    "department": "CSE",
+    "semester": "sem3",
+    "subject": "AFL",
+    "filename": "Operators Precedence and Associativity.pdf",
+    "url": "https://kvibespyq.netlify.app/notes/CSE/sem3/AFL/Operators Precedence and Associativity.pdf",
+    "file_size_bytes": 75760,
+    "file_size": "74.0 KB"
+  },
+  {
+    "content_type": "notes",
+    "department": "CSE",
+    "semester": "sem3",
+    "subject": "AFL",
+    "filename": "Pushdown Automata.pdf",
+    "url": "https://kvibespyq.netlify.app/notes/CSE/sem3/AFL/Pushdown Automata.pdf",
+    "file_size_bytes": 159204,
+    "file_size": "155.5 KB"
+  },
+  {
+    "content_type": "notes",
+    "department": "CSE",
+    "semester": "sem3",
+    "subject": "AFL",
+    "filename": "Regular Grammar and RLG_LLG.pdf",
+    "url": "https://kvibespyq.netlify.app/notes/CSE/sem3/AFL/Regular Grammar and RLG_LLG.pdf",
+    "file_size_bytes": 282650,
+    "file_size": "276.0 KB"
+  },
+  {
+    "content_type": "notes",
+    "department": "CSE",
+    "semester": "sem3",
+    "subject": "AFL",
+    "filename": "Regular Grammar to DFA Conversion Module.pdf",
+    "url": "https://kvibespyq.netlify.app/notes/CSE/sem3/AFL/Regular Grammar to DFA Conversion Module.pdf",
+    "file_size_bytes": 138121,
+    "file_size": "134.9 KB"
+  },
+  {
+    "content_type": "notes",
+    "department": "CSE",
+    "semester": "sem3",
+    "subject": "AFL",
+    "filename": "Simplification of CFG _CNF.pdf",
+    "url": "https://kvibespyq.netlify.app/notes/CSE/sem3/AFL/Simplification of CFG _CNF.pdf",
+    "file_size_bytes": 152439,
+    "file_size": "148.9 KB"
+  },
+  {
+    "content_type": "notes",
+    "department": "CSE",
+    "semester": "sem3",
     "subject": "IND",
     "filename": "IND Q Bank 2.pdf",
     "url": "https://kvibespyq.netlify.app/notes/CSE/sem3/ind/IND Q Bank 2.pdf",
