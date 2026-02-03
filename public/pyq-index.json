@@ -39,6 +39,18 @@
     "content_type": "pyq",
     "department": "CSE",
     "semester": "sem6",
+    "subject": "UHV",
+    "year": "2024",
+    "exam_type": "mid",
+    "filename": "UHV EVALUATION SCHEME AUTUMN-MID-SEM-2024.pdf",
+    "url": "https://kvibespyq.netlify.app/pyq/CSE/sem6/UHV/mid/UHV EVALUATION SCHEME AUTUMN-MID-SEM-2024.pdf",
+    "file_size_bytes": 910665,
+    "file_size": "889.3 KB"
+  },
+  {
+    "content_type": "pyq",
+    "department": "CSE",
+    "semester": "sem6",
     "subject": "NLP",
     "year": "2024",
     "exam_type": "mid",
